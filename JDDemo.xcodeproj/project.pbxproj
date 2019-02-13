@@ -61,6 +61,9 @@
 		76E4ED1922116F50008FF98A /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4ED1722116F50008FF98A /* GCDAsyncSocket.m */; };
 		76E4ED1D221261C5008FF98A /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4ED1B221261C5008FF98A /* UIColor+Extend.m */; };
 		76E4ED202212722B008FF98A /* FloatIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4ED1F2212722B008FF98A /* FloatIndexController.m */; };
+		76E4ED2E2213F08F008FF98A /* JDVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4ED2D2213F08F008FF98A /* JDVideoPlayerView.m */; };
+		76E4ED312213FF27008FF98A /* JDVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4ED302213FF27008FF98A /* JDVideoPlayerController.m */; };
+		76E4ED34221405E3008FF98A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E4ED33221405E2008FF98A /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +190,11 @@
 		76E4ED1C221261C5008FF98A /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
 		76E4ED1E2212722B008FF98A /* FloatIndexController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatIndexController.h; sourceTree = "<group>"; };
 		76E4ED1F2212722B008FF98A /* FloatIndexController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatIndexController.m; sourceTree = "<group>"; };
+		76E4ED2C2213F08F008FF98A /* JDVideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDVideoPlayerView.h; sourceTree = "<group>"; };
+		76E4ED2D2213F08F008FF98A /* JDVideoPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDVideoPlayerView.m; sourceTree = "<group>"; };
+		76E4ED2F2213FF27008FF98A /* JDVideoPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDVideoPlayerController.h; sourceTree = "<group>"; };
+		76E4ED302213FF27008FF98A /* JDVideoPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDVideoPlayerController.m; sourceTree = "<group>"; };
+		76E4ED33221405E2008FF98A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E4ED34221405E3008FF98A /* CoreMedia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +230,7 @@
 				76E4EC6C2211674A008FF98A /* JDDemoTests */,
 				76E4EC772211674A008FF98A /* JDDemoUITests */,
 				76E4EC5222116748008FF98A /* Products */,
+				76E4ED32221405E2008FF98A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -237,6 +247,7 @@
 		76E4EC5322116748008FF98A /* JDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				76E4ED2B2213F05A008FF98A /* VideoPlayer */,
 				76E4ED1A221261C5008FF98A /* Category */,
 				76E4ED1222116F38008FF98A /* Socket */,
 				76E4ED0E22116C8A008FF98A /* TouchIDFaceID */,
@@ -470,6 +481,25 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		76E4ED2B2213F05A008FF98A /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				76E4ED2C2213F08F008FF98A /* JDVideoPlayerView.h */,
+				76E4ED2D2213F08F008FF98A /* JDVideoPlayerView.m */,
+				76E4ED2F2213FF27008FF98A /* JDVideoPlayerController.h */,
+				76E4ED302213FF27008FF98A /* JDVideoPlayerController.m */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		76E4ED32221405E2008FF98A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76E4ED33221405E2008FF98A /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -621,6 +651,7 @@
 				76E4EC8F221168FB008FF98A /* JD3DPoint.m in Sources */,
 				76E4ECF9221169DE008FF98A /* UIView+WebCache.m in Sources */,
 				76E4ED0D22116C41008FF98A /* AnimationController.m in Sources */,
+				76E4ED2E2213F08F008FF98A /* JDVideoPlayerView.m in Sources */,
 				76E4ECED221169DE008FF98A /* SDWebImageCoder.m in Sources */,
 				76E4ECF5221169DE008FF98A /* NSImage+WebCache.m in Sources */,
 				76E4ECF4221169DE008FF98A /* UIImageView+WebCache.m in Sources */,
@@ -644,6 +675,7 @@
 				76E4ED1522116F38008FF98A /* JDSocketService.m in Sources */,
 				76E4ECF6221169DE008FF98A /* SDWebImageGIFCoder.m in Sources */,
 				76E4ECA5221169AD008FF98A /* JDImageBrowserController.m in Sources */,
+				76E4ED312213FF27008FF98A /* JDVideoPlayerController.m in Sources */,
 				76E4ED1D221261C5008FF98A /* UIColor+Extend.m in Sources */,
 				76E4ECE3221169DE008FF98A /* UIImageView+HighlightedWebCache.m in Sources */,
 				76E4ECE8221169DE008FF98A /* UIImage+GIF.m in Sources */,

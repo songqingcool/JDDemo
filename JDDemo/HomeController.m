@@ -52,6 +52,11 @@
     [dict6 setValue:@"FloatIndexController" forKey:@"target"];
     [self.dataArray addObject:dict6];
     
+    NSMutableDictionary *dict7 = [NSMutableDictionary dictionary];
+    [dict7 setValue:@"JDVideoPlayer" forKey:@"title"];
+    [dict7 setValue:@"JDVideoPlayerController" forKey:@"target"];
+    [self.dataArray addObject:dict7];
+    
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0, 0.0, CGRectGetWidth([UIScreen mainScreen].bounds), CGRectGetHeight([UIScreen mainScreen].bounds)) style:UITableViewStylePlain];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
