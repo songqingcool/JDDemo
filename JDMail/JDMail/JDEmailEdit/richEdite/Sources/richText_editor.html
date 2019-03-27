@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0,minimum-scale=1.0, user-scalable=1;" name="viewport" />
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                    <link rel="stylesheet" type="text/css" href="style.css">
+                        <script src="jquery.js"></script>
+    </head>
+    <body onLoad="scrpllTo(0,10)">
+        <div id="wrap">
+            <div id="title" style="display:none;">
+                <input id="article_title" maxlength="35" type="text" placeholder="请输入标题">
+            </div>
+            <div class="main-case">
+                <div id="article_content" contenteditable="true"></div>
+                <div>
+                    <a id="originalEmailLink" target="blank" href="javascript:showOriginalEmail();" style="padding:15px;display:none;">显示原邮件</a>
+                </div>
+                <div id="article_footer"></div>
+            </div>
+            <script type="text/javascript" src="article_editor.js"></script>
+            <script type="text/javascript" src="email_Util.js"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,2279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0142F783CA357C9470AA3890 /* libPods-JDMailUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0074DC1AE7BFA76FCF3F1DCB /* libPods-JDMailUITests.a */; };
+		5F0091267154CE14217898C0 /* libPods-JDMail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54047E93F68A483D52F71B4E /* libPods-JDMail.a */; };
+		761A6959223652FF00643AD2 /* contact_star_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761A6955223652FF00643AD2 /* contact_star_selected@3x.png */; };
+		761A695A223652FF00643AD2 /* contact_star_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761A6956223652FF00643AD2 /* contact_star_normal@3x.png */; };
+		761A695B223652FF00643AD2 /* contact_star_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761A6957223652FF00643AD2 /* contact_star_selected@2x.png */; };
+		761A695C223652FF00643AD2 /* contact_star_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 761A6958223652FF00643AD2 /* contact_star_normal@2x.png */; };
+		763B043A223920BE00270F61 /* JDMailSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 763B0439223920BE00270F61 /* JDMailSyncManager.m */; };
+		763B043D2240E6F700270F61 /* JDLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 763B043C2240E6F700270F61 /* JDLoginManager.m */; };
+		765FE8C5221BFCAA007F09AD /* JDMailMessageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8C2221BFCAA007F09AD /* JDMailMessageBuilder.m */; };
+		765FE8C8221C0C57007F09AD /* JDMailMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8C7221C0C57007F09AD /* JDMailMessage.m */; };
+		765FE8D0221E4E60007F09AD /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8CF221E4E60007F09AD /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		765FE8D2221E4EAD007F09AD /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 765FE8D1221E4EAD007F09AD /* libxml2.tbd */; };
+		765FE8D5221E8FA8007F09AD /* JDMailListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8D4221E8FA8007F09AD /* JDMailListModel.m */; };
+		765FE8EB221EADDD007F09AD /* JDImageTransitionPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8D9221EADDD007F09AD /* JDImageTransitionPresentAnimation.m */; };
+		765FE8EC221EADDD007F09AD /* JDZoomImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8DB221EADDD007F09AD /* JDZoomImageScrollView.m */; };
+		765FE8ED221EADDD007F09AD /* JDImageBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8DE221EADDD007F09AD /* JDImageBrowserController.m */; };
+		765FE8EE221EADDD007F09AD /* JDImageTransitionDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8E0221EADDD007F09AD /* JDImageTransitionDismissAnimation.m */; };
+		765FE8EF221EADDD007F09AD /* JDBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8E1221EADDD007F09AD /* JDBrowserCollectionViewCell.m */; };
+		765FE8F0221EADDD007F09AD /* JDImageSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8E2221EADDD007F09AD /* JDImageSourceModel.m */; };
+		765FE8F1221EADDD007F09AD /* JDSlipMenuLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8E8221EADDD007F09AD /* JDSlipMenuLeftView.m */; };
+		765FE8F2221EADDD007F09AD /* JDSlipMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8E9221EADDD007F09AD /* JDSlipMenu.m */; };
+		765FE8F3221EADDD007F09AD /* JDSlipMenuHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8EA221EADDD007F09AD /* JDSlipMenuHeaderView.m */; };
+		765FE8F6221EB480007F09AD /* JDMailListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE8F5221EB480007F09AD /* JDMailListCell.m */; };
+		765FE8FA221F8742007F09AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765FE8F9221F8742007F09AD /* Assets.xcassets */; };
+		765FE914222518B1007F09AD /* tab_mail_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE90A222518B1007F09AD /* tab_mail_normal@3x.png */; };
+		765FE915222518B1007F09AD /* tab_file_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE90B222518B1007F09AD /* tab_file_normal@3x.png */; };
+		765FE916222518B1007F09AD /* tab_schedule_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE90C222518B1007F09AD /* tab_schedule_normal@3x.png */; };
+		765FE917222518B1007F09AD /* tab_schedule_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE90D222518B1007F09AD /* tab_schedule_selected@3x.png */; };
+		765FE918222518B1007F09AD /* tab_chat_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE90E222518B1007F09AD /* tab_chat_normal@3x.png */; };
+		765FE919222518B1007F09AD /* tab_mail_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE90F222518B1007F09AD /* tab_mail_selected@3x.png */; };
+		765FE91A222518B1007F09AD /* tab_contacts_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE910222518B1007F09AD /* tab_contacts_selected@3x.png */; };
+		765FE91B222518B1007F09AD /* tab_chat_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE911222518B1007F09AD /* tab_chat_selected@3x.png */; };
+		765FE91C222518B1007F09AD /* tab_file_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE912222518B1007F09AD /* tab_file_selected@3x.png */; };
+		765FE91D222518B1007F09AD /* tab_contacts_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE913222518B1007F09AD /* tab_contacts_normal@3x.png */; };
+		765FE92822251B46007F09AD /* tab_chat_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE91E22251B45007F09AD /* tab_chat_normal@2x.png */; };
+		765FE92922251B46007F09AD /* tab_contacts_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE91F22251B45007F09AD /* tab_contacts_selected@2x.png */; };
+		765FE92A22251B46007F09AD /* tab_mail_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE92022251B45007F09AD /* tab_mail_normal@2x.png */; };
+		765FE92B22251B46007F09AD /* tab_mail_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE92122251B45007F09AD /* tab_mail_selected@2x.png */; };
+		765FE92C22251B46007F09AD /* tab_file_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE92222251B45007F09AD /* tab_file_normal@2x.png */; };
+		765FE92D22251B46007F09AD /* tab_contacts_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE92322251B45007F09AD /* tab_contacts_normal@2x.png */; };
+		765FE92E22251B46007F09AD /* tab_file_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE92422251B45007F09AD /* tab_file_selected@2x.png */; };
+		765FE92F22251B46007F09AD /* tab_chat_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE92522251B45007F09AD /* tab_chat_selected@2x.png */; };
+		765FE93022251B46007F09AD /* tab_schedule_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE92622251B46007F09AD /* tab_schedule_normal@2x.png */; };
+		765FE93122251B46007F09AD /* tab_schedule_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE92722251B46007F09AD /* tab_schedule_selected@2x.png */; };
+		765FE93522251E34007F09AD /* slip_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE93322251E34007F09AD /* slip_setting@2x.png */; };
+		765FE93622251E34007F09AD /* slip_setting@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE93422251E34007F09AD /* slip_setting@3x.png */; };
+		765FE939222520E8007F09AD /* slip_addaccount@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE937222520E8007F09AD /* slip_addaccount@2x.png */; };
+		765FE93A222520E8007F09AD /* slip_addaccount@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE938222520E8007F09AD /* slip_addaccount@3x.png */; };
+		765FE94F22254C81007F09AD /* mail_inbox_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE93B22254C80007F09AD /* mail_inbox_selected@3x.png */; };
+		765FE95022254C81007F09AD /* mail_junkemail_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE93C22254C80007F09AD /* mail_junkemail_selected@3x.png */; };
+		765FE95122254C81007F09AD /* mail_drafts_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE93D22254C80007F09AD /* mail_drafts_selected@3x.png */; };
+		765FE95222254C81007F09AD /* mail_deleteditems_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE93E22254C80007F09AD /* mail_deleteditems_selected@2x.png */; };
+		765FE95322254C81007F09AD /* mail_junkemail_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE93F22254C80007F09AD /* mail_junkemail_normal@3x.png */; };
+		765FE95422254C81007F09AD /* mail_deleteditems_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94022254C80007F09AD /* mail_deleteditems_selected@3x.png */; };
+		765FE95522254C81007F09AD /* mail_drafts_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94122254C80007F09AD /* mail_drafts_selected@2x.png */; };
+		765FE95622254C81007F09AD /* mail_sentitems_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94222254C80007F09AD /* mail_sentitems_normal@2x.png */; };
+		765FE95722254C81007F09AD /* mail_inbox_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94322254C81007F09AD /* mail_inbox_selected@2x.png */; };
+		765FE95822254C81007F09AD /* mail_sentitems_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94422254C81007F09AD /* mail_sentitems_selected@3x.png */; };
+		765FE95922254C81007F09AD /* mail_inbox_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94522254C81007F09AD /* mail_inbox_normal@3x.png */; };
+		765FE95A22254C81007F09AD /* mail_sentitems_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94622254C81007F09AD /* mail_sentitems_selected@2x.png */; };
+		765FE95B22254C81007F09AD /* mail_drafts_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94722254C81007F09AD /* mail_drafts_normal@2x.png */; };
+		765FE95C22254C81007F09AD /* mail_deleteditems_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94822254C81007F09AD /* mail_deleteditems_normal@2x.png */; };
+		765FE95D22254C81007F09AD /* mail_sentitems_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94922254C81007F09AD /* mail_sentitems_normal@3x.png */; };
+		765FE95E22254C81007F09AD /* mail_inbox_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94A22254C81007F09AD /* mail_inbox_normal@2x.png */; };
+		765FE95F22254C81007F09AD /* mail_deleteditems_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94B22254C81007F09AD /* mail_deleteditems_normal@3x.png */; };
+		765FE96022254C81007F09AD /* mail_junkemail_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94C22254C81007F09AD /* mail_junkemail_selected@2x.png */; };
+		765FE96122254C81007F09AD /* mail_drafts_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94D22254C81007F09AD /* mail_drafts_normal@3x.png */; };
+		765FE96222254C81007F09AD /* mail_junkemail_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE94E22254C81007F09AD /* mail_junkemail_normal@2x.png */; };
+		765FE96522254F7C007F09AD /* JDSlipMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE96422254F7C007F09AD /* JDSlipMenuCell.m */; };
+		765FE96822262B4F007F09AD /* JDLoginTextFeildCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE96722262B4F007F09AD /* JDLoginTextFeildCell.m */; };
+		765FE97322263A8A007F09AD /* dropdown_anim__0008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE96922263A89007F09AD /* dropdown_anim__0008@2x.png */; };
+		765FE97422263A8A007F09AD /* dropdown_anim__0001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE96A22263A89007F09AD /* dropdown_anim__0001@2x.png */; };
+		765FE97522263A8A007F09AD /* dropdown_anim__0002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE96B22263A89007F09AD /* dropdown_anim__0002@2x.png */; };
+		765FE97622263A8A007F09AD /* dropdown_anim__0006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE96C22263A89007F09AD /* dropdown_anim__0006@2x.png */; };
+		765FE97722263A8A007F09AD /* dropdown_anim__00010@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE96D22263A89007F09AD /* dropdown_anim__00010@2x.png */; };
+		765FE97822263A8A007F09AD /* dropdown_anim__0003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE96E22263A8A007F09AD /* dropdown_anim__0003@2x.png */; };
+		765FE97922263A8A007F09AD /* dropdown_anim__0005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE96F22263A8A007F09AD /* dropdown_anim__0005@2x.png */; };
+		765FE97A22263A8A007F09AD /* dropdown_anim__0004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE97022263A8A007F09AD /* dropdown_anim__0004@2x.png */; };
+		765FE97B22263A8A007F09AD /* dropdown_anim__0007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE97122263A8A007F09AD /* dropdown_anim__0007@2x.png */; };
+		765FE97C22263A8A007F09AD /* dropdown_anim__0009@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE97222263A8A007F09AD /* dropdown_anim__0009@2x.png */; };
+		765FE97F222661D3007F09AD /* JDLoginButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE97E222661D3007F09AD /* JDLoginButtonCell.m */; };
+		765FE98222277ACC007F09AD /* JDMailPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE98122277ACC007F09AD /* JDMailPerson.m */; };
+		765FE98D222791D5007F09AD /* JDMailAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE98C222791D5007F09AD /* JDMailAttachment.m */; };
+		765FE996222901DF007F09AD /* JDAppDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE995222901DF007F09AD /* JDAppDBManager.m */; };
+		765FE9992229348C007F09AD /* mail_edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE9972229348C007F09AD /* mail_edit@2x.png */; };
+		765FE99A2229348C007F09AD /* mail_edit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE9982229348C007F09AD /* mail_edit@3x.png */; };
+		765FE99D22293577007F09AD /* mail_slip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE99B22293576007F09AD /* mail_slip@2x.png */; };
+		765FE99E22293577007F09AD /* mail_slip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE99C22293576007F09AD /* mail_slip@3x.png */; };
+		765FE9A1222CD13E007F09AD /* JDMailReplyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9A0222CD13E007F09AD /* JDMailReplyView.m */; };
+		765FE9A7222E213F007F09AD /* JDSenderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9A6222E213F007F09AD /* JDSenderTextView.m */; };
+		765FE9AA222F6F14007F09AD /* JDContactListMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9A9222F6F14007F09AD /* JDContactListMode.m */; };
+		765FE9AD222F7338007F09AD /* JDContactName.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9AC222F7338007F09AD /* JDContactName.m */; };
+		765FE9B3222F7372007F09AD /* JDContactPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9B2222F7372007F09AD /* JDContactPhone.m */; };
+		765FE9B9222FA260007F09AD /* contact_addcontact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE9B7222FA260007F09AD /* contact_addcontact@2x.png */; };
+		765FE9BA222FA260007F09AD /* contact_addcontact@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 765FE9B8222FA260007F09AD /* contact_addcontact@3x.png */; };
+		765FE9BD222FA885007F09AD /* JDNewContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9BC222FA885007F09AD /* JDNewContactController.m */; };
+		765FE9C0222FBBD2007F09AD /* JDContactMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9BF222FBBD2007F09AD /* JDContactMessage.m */; };
+		765FE9C32230FA76007F09AD /* JDContactFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9C22230FA76007F09AD /* JDContactFieldCell.m */; };
+		765FE9C722327B88007F09AD /* JDContactDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9C622327B88007F09AD /* JDContactDetailController.m */; };
+		765FE9D02236012D007F09AD /* JDContactDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9CF2236012D007F09AD /* JDContactDetailModel.m */; };
+		765FE9D3223638FA007F09AD /* JDContactDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765FE9D2223638FA007F09AD /* JDContactDetailHeaderView.m */; };
+		76644C5321F98A12001BC677 /* JDContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C5221F98A12001BC677 /* JDContactCell.m */; };
+		76644C7A220298BE001BC677 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76644C79220298BE001BC677 /* FMDB.framework */; };
+		76644C8E22029978001BC677 /* UIViewController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C7F22029978001BC677 /* UIViewController+Extend.m */; };
+		76644C9022029978001BC677 /* NSDictionary+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C8222029978001BC677 /* NSDictionary+Extend.m */; };
+		76644C9122029978001BC677 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C8522029978001BC677 /* NSString+Extend.m */; };
+		76644C9222029978001BC677 /* JDNetworkAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C8A22029978001BC677 /* JDNetworkAPI.m */; };
+		76644C9322029978001BC677 /* JDNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C8B22029978001BC677 /* JDNetworkManager.m */; };
+		76A9C8AE21D46B55003FFB6F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A9C8AD21D46B55003FFB6F /* libc++.tbd */; };
+		76E5E2BD21D0B149007DEC14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E5E2BB21D0B149007DEC14 /* LaunchScreen.storyboard */; };
+		76E5E2C021D0B149007DEC14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E2BF21D0B149007DEC14 /* main.m */; };
+		76E5E2CA21D0B149007DEC14 /* JDMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E2C921D0B149007DEC14 /* JDMailTests.m */; };
+		76E5E2D521D0B149007DEC14 /* JDMailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E2D421D0B149007DEC14 /* JDMailUITests.m */; };
+		76E5E2FC21D0D550007DEC14 /* JDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E2F321D0D550007DEC14 /* JDNavigationController.m */; };
+		76E5E2FD21D0D550007DEC14 /* JDAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E2F421D0D550007DEC14 /* JDAlertController.m */; };
+		76E5E2FE21D0D550007DEC14 /* header_icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E5E2F821D0D550007DEC14 /* header_icon_back@2x.png */; };
+		76E5E2FF21D0D550007DEC14 /* header_icon_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E5E2F921D0D550007DEC14 /* header_icon_back@3x.png */; };
+		76E5E30621D0DA14007DEC14 /* JDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E30521D0DA14007DEC14 /* JDTabBarController.m */; };
+		76E5E30821D0DAE4007DEC14 /* JDTabBarSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76E5E30721D0DAE4007DEC14 /* JDTabBarSetting.plist */; };
+		76E5E32421D0E85E007DEC14 /* JDContactListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E31721D0E85D007DEC14 /* JDContactListController.m */; };
+		76E5E32521D0E85E007DEC14 /* JDScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E31921D0E85D007DEC14 /* JDScheduleController.m */; };
+		76E5E32821D0E85E007DEC14 /* JDMailListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E32221D0E85D007DEC14 /* JDMailListController.m */; };
+		783853E221F86DCC00094A26 /* JDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783853E121F86DCC00094A26 /* JDSettingsViewController.m */; };
+		784D5809222FB5A60058A7BB /* JDAttachmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D5808222FB5A60058A7BB /* JDAttachmentManager.m */; };
+		784D58582230B3140058A7BB /* email_Util.js in Resources */ = {isa = PBXBuildFile; fileRef = 784D58572230B3130058A7BB /* email_Util.js */; };
+		784D585B22320BD40058A7BB /* JDMailFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D585A22320BD40058A7BB /* JDMailFileManager.m */; };
+		784D585E2235F2AD0058A7BB /* JDMialDetailContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D585D2235F2AD0058A7BB /* JDMialDetailContactViewController.m */; };
+		788ED7EE224211C100072742 /* JDAppointmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ED7ED224211C100072742 /* JDAppointmentModel.m */; };
+		788ED7F1224215BA00072742 /* JDAppointmentMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ED7F0224215BA00072742 /* JDAppointmentMessage.m */; };
+		788ED7F52242175700072742 /* JDMessageBuilderBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ED7F42242175700072742 /* JDMessageBuilderBase.m */; };
+		788ED7F822421C3800072742 /* JDAppointmentMessageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 788ED7F722421C3800072742 /* JDAppointmentMessageBuilder.m */; };
+		7892127D2224E57600CC6F3C /* JDMailDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7892127C2224E57600CC6F3C /* JDMailDetailViewController.m */; };
+		789212822225100700CC6F3C /* RecipientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 789212812225100700CC6F3C /* RecipientCell.m */; };
+		78A7B450222E6658005EB9F1 /* JDAttachmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A7B44F222E6658005EB9F1 /* JDAttachmentTableViewCell.m */; };
+		78A7B453222E690F005EB9F1 /* AttachmentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A7B452222E690F005EB9F1 /* AttachmentCollectionViewCell.m */; };
+		78BAE5B72200641500D1F1EF /* JDFileItemSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE5A82200641500D1F1EF /* JDFileItemSelectCell.m */; };
+		78BAE5B82200641500D1F1EF /* JDFilesTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE5A92200641500D1F1EF /* JDFilesTitleCollectionViewCell.m */; };
+		78BAE5B92200641500D1F1EF /* JDFileCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE5AA2200641500D1F1EF /* JDFileCollectionView.m */; };
+		78BAE5BA2200641500D1F1EF /* JDFilesManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE5AC2200641500D1F1EF /* JDFilesManagerController.m */; };
+		78BAE5BC2200641500D1F1EF /* JDAllFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE5B32200641500D1F1EF /* JDAllFilesViewController.m */; };
+		78BAE5BD2200641500D1F1EF /* JDOnlyVediosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE5B52200641500D1F1EF /* JDOnlyVediosViewController.m */; };
+		78BAE5BE2200641500D1F1EF /* JDOnlyFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE5B62200641500D1F1EF /* JDOnlyFilesViewController.m */; };
+		78BB92502239E6F600764DA5 /* JDMailDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB924F2239E6F600764DA5 /* JDMailDBManager.m */; };
+		78BB92582239F9AF00764DA5 /* JDMailFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BB92572239F9AF00764DA5 /* JDMailFolder.m */; };
+		78E6DD3C21F9A6F500CDA682 /* JDSettingsNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E6DD3921F9A6F500CDA682 /* JDSettingsNormalCell.m */; };
+		78E6DD3D21F9A6F500CDA682 /* JDSettingsAccountCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E6DD3A21F9A6F500CDA682 /* JDSettingsAccountCell.m */; };
+		78E6DD4121F9AA0100CDA682 /* JDAccountManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E6DD4021F9AA0100CDA682 /* JDAccountManagerController.m */; };
+		78E6DD4421F9AA9400CDA682 /* JDLeftPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E6DD4321F9AA9400CDA682 /* JDLeftPhotoCell.m */; };
+		78E6DD4721F9AFAB00CDA682 /* JDSettingsBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E6DD4621F9AFAB00CDA682 /* JDSettingsBaseCell.m */; };
+		78E6DD4A21FAA3FF00CDA682 /* EmailSignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E6DD4921FAA3FF00CDA682 /* EmailSignatureViewController.m */; };
+		78FD737A221E3C6300E6601D /* JDEditSendEmailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7379221E3C6300E6601D /* JDEditSendEmailController.m */; };
+		78FD737E221E41E600E6601D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD737D221E41E600E6601D /* UIView+Frame.m */; };
+		78FD7381221E427500E6601D /* JDEditSendEmailController+TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7380221E427500E6601D /* JDEditSendEmailController+TableViewDelegate.m */; };
+		78FD7384221E4D2200E6601D /* JDEmialAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7383221E4D2200E6601D /* JDEmialAddressCell.m */; };
+		78FD7426221E82B800E6601D /* JDEmailEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7425221E82B800E6601D /* JDEmailEditCell.m */; };
+		78FD742C221E872400E6601D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FD742B221E872400E6601D /* UIKit.framework */; };
+		78FD742E221E873C00E6601D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FD742D221E873C00E6601D /* Foundation.framework */; };
+		78FD7430221E875E00E6601D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FD742F221E875E00E6601D /* AVFoundation.framework */; };
+		78FD7432221E878A00E6601D /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FD7431221E878A00E6601D /* Photos.framework */; };
+		78FD7434221E87ED00E6601D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FD7433221E87ED00E6601D /* MediaPlayer.framework */; };
+		78FD7436221E880A00E6601D /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FD7435221E880A00E6601D /* PhotosUI.framework */; };
+		78FD7438221E884700E6601D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FD7437221E884700E6601D /* MobileCoreServices.framework */; };
+		78FD74A2221E8CF300E6601D /* WGUploadPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD743C221E8CF200E6601D /* WGUploadPictureModel.m */; };
+		78FD74A3221E8CF300E6601D /* KWEditorBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78FD7440221E8CF200E6601D /* KWEditorBar.xib */; };
+		78FD74A4221E8CF300E6601D /* KWFontStyleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7441221E8CF200E6601D /* KWFontStyleBar.m */; };
+		78FD74A5221E8CF300E6601D /* KWEditorBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7442221E8CF200E6601D /* KWEditorBar.m */; };
+		78FD74A6221E8CF300E6601D /* icon_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FD7444221E8CF200E6601D /* icon_refresh.png */; };
+		78FD74A7221E8CF300E6601D /* article_editor.js in Resources */ = {isa = PBXBuildFile; fileRef = 78FD7445221E8CF200E6601D /* article_editor.js */; };
+		78FD74A8221E8CF300E6601D /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 78FD7446221E8CF200E6601D /* style.css */; };
+		78FD74A9221E8CF300E6601D /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = 78FD7447221E8CF200E6601D /* normalize.css */; };
+		78FD74AA221E8CF300E6601D /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 78FD7448221E8CF200E6601D /* jquery.js */; };
+		78FD74AB221E8CF300E6601D /* richText_editor.html in Resources */ = {isa = PBXBuildFile; fileRef = 78FD7449221E8CF200E6601D /* richText_editor.html */; };
+		78FD74AC221E8CF300E6601D /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD744B221E8CF200E6601D /* HXCustomCameraViewController.m */; };
+		78FD74AD221E8CF300E6601D /* UIViewController+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD744C221E8CF200E6601D /* UIViewController+HXExtension.m */; };
+		78FD74AE221E8CF300E6601D /* HXPhotoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD744D221E8CF200E6601D /* HXPhotoConfiguration.m */; };
+		78FD74AF221E8CF300E6601D /* HXDownloadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD744E221E8CF200E6601D /* HXDownloadProgressView.m */; };
+		78FD74B0221E8CF300E6601D /* HXPhoto3DTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7451221E8CF200E6601D /* HXPhoto3DTouchViewController.m */; };
+		78FD74B1221E8CF300E6601D /* HXDatePhotoPreviewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7452221E8CF200E6601D /* HXDatePhotoPreviewBottomView.m */; };
+		78FD74B2221E8CF300E6601D /* NSBundle+HXWeiboPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7457221E8CF200E6601D /* NSBundle+HXWeiboPhotoPicker.m */; };
+		78FD74B3221E8CF300E6601D /* HXCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7459221E8CF200E6601D /* HXCollectionView.m */; };
+		78FD74B4221E8CF300E6601D /* UIImageView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD745B221E8CF200E6601D /* UIImageView+HXExtension.m */; };
+		78FD74B5221E8CF300E6601D /* UIFont+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD745C221E8CF200E6601D /* UIFont+HXExtension.m */; };
+		78FD74B6221E8CF300E6601D /* HXDatePhotoInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD745E221E8CF200E6601D /* HXDatePhotoInteractiveTransition.m */; };
+		78FD74B7221E8CF300E6601D /* HXPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD745F221E8CF200E6601D /* HXPhotoModel.m */; };
+		78FD74B8221E8CF300E6601D /* HXAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7460221E8CF200E6601D /* HXAlbumListViewController.m */; };
+		78FD74B9221E8CF300E6601D /* HXCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7463221E8CF200E6601D /* HXCustomButton.m */; };
+		78FD74BA221E8CF300E6601D /* UIView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7464221E8CF200E6601D /* UIView+HXExtension.m */; };
+		78FD74BB221E8CF300E6601D /* HXPhotoCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7465221E8CF200E6601D /* HXPhotoCustomNavigationBar.m */; };
+		78FD74BC221E8CF300E6601D /* HXPhotoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7467221E8CF200E6601D /* HXPhotoTools.m */; };
+		78FD74BD221E8CF300E6601D /* HXDatePhotoPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7469221E8CF200E6601D /* HXDatePhotoPreviewViewController.m */; };
+		78FD74BE221E8CF300E6601D /* HXDatePhotoViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD746A221E8CF200E6601D /* HXDatePhotoViewFlowLayout.m */; };
+		78FD74BF221E8CF300E6601D /* HXDatePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD746B221E8CF200E6601D /* HXDatePhotoViewController.m */; };
+		78FD74C0221E8CF300E6601D /* HXPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD746E221E8CF200E6601D /* HXPhotoManager.m */; };
+		78FD74C1221E8CF300E6601D /* HXDatePhotoViewPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD746F221E8CF200E6601D /* HXDatePhotoViewPresentTransition.m */; };
+		78FD74C2221E8CF300E6601D /* HXCustomCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7472221E8CF200E6601D /* HXCustomCameraController.m */; };
+		78FD74C3221E8CF300E6601D /* UIImage+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7478221E8CF200E6601D /* UIImage+HXExtension.m */; };
+		78FD74C4221E8CF300E6601D /* HXCustomCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7479221E8CF200E6601D /* HXCustomCollectionReusableView.m */; };
+		78FD74C5221E8CF300E6601D /* HXWeiboPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78FD747A221E8CF200E6601D /* HXWeiboPhotoPicker.bundle */; };
+		78FD74C6221E8CF300E6601D /* HXPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD747D221E8CF200E6601D /* HXPhotoView.m */; };
+		78FD74C7221E8CF300E6601D /* HXFullScreenCameraPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD747E221E8CF200E6601D /* HXFullScreenCameraPlayView.m */; };
+		78FD74C8221E8CF300E6601D /* NSDate+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD747F221E8CF200E6601D /* NSDate+HXExtension.m */; };
+		78FD74C9221E8CF300E6601D /* HXCustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7480221E8CF200E6601D /* HXCustomNavigationController.m */; };
+		78FD74CA221E8CF300E6601D /* HXDatePhotoViewTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7481221E8CF200E6601D /* HXDatePhotoViewTransition.m */; };
+		78FD74CB221E8CF300E6601D /* HXPhotoSubViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7485221E8CF200E6601D /* HXPhotoSubViewCell.m */; };
+		78FD74CC221E8CF300E6601D /* HXAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7487221E8CF200E6601D /* HXAlbumModel.m */; };
+		78FD74CD221E8CF300E6601D /* UIButton+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD748B221E8CF200E6601D /* UIButton+HXExtension.m */; };
+		78FD74CE221E8CF300E6601D /* HXCustomPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD748C221E8CF200E6601D /* HXCustomPreviewView.m */; };
+		78FD74CF221E8CF300E6601D /* HXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD748E221E8CF200E6601D /* HXCircleProgressView.m */; };
+		78FD74D0221E8CF300E6601D /* HXDateVideoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7493221E8CF200E6601D /* HXDateVideoEditViewController.m */; };
+		78FD74D1221E8CF300E6601D /* HXDatePhotoToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7496221E8CF200E6601D /* HXDatePhotoToolManager.m */; };
+		78FD74D2221E8CF300E6601D /* HXDatePhotoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7497221E8CF200E6601D /* HXDatePhotoEditViewController.m */; };
+		78FD74D3221E8CF300E6601D /* UIWebView+KWHideAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD749D221E8CF200E6601D /* UIWebView+KWHideAccessoryView.m */; };
+		78FD74D4221E8CF300E6601D /* UIWebView+KWWebViewJSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD749E221E8CF200E6601D /* UIWebView+KWWebViewJSTool.m */; };
+		78FD74D5221E8CF300E6601D /* UIControl+KWButtonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD749F221E8CF200E6601D /* UIControl+KWButtonExtension.m */; };
+		78FD74D8221ECBE200E6601D /* MBProgressHUD+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C7D22029978001BC677 /* MBProgressHUD+Extend.m */; };
+		78FD74D9221ECBE200E6601D /* JDTableViewIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4ED252213B3C7008FF98A /* JDTableViewIndexView.m */; };
+		78FD74DA221ECBE200E6601D /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C8122029978001BC677 /* UIColor+Extend.m */; };
+		78FD74DB221ECBE200E6601D /* JDContactHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76644C5521F9971B001BC677 /* JDContactHeaderView.m */; };
+		78FD74DC221ECBE200E6601D /* JDOnlyImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BAE5B12200641500D1F1EF /* JDOnlyImagesViewController.m */; };
+		78FD74DD221ECBE200E6601D /* JDHiddenNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E2F221D0D550007DEC14 /* JDHiddenNavigationViewController.m */; };
+		78FD74DE221ECBE200E6601D /* JDChatListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E31D21D0E85D007DEC14 /* JDChatListController.m */; };
+		78FD74DF221ECBE200E6601D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E5E2B121D0B147007DEC14 /* AppDelegate.m */; };
+		78FD74E0221ECBE200E6601D /* JDFloatIndexTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4ED272213B3C7008FF98A /* JDFloatIndexTableView.m */; };
+		78FD74E1221ECBE200E6601D /* FloatIndexController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4ED262213B3C7008FF98A /* FloatIndexController.m */; };
+		78FD760D222001A300E6601D /* JDAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7607222001A200E6601D /* JDAccount.m */; };
+		78FD760E222001A300E6601D /* JDAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD7608222001A200E6601D /* JDAccountManager.m */; };
+		78FD760F222001A300E6601D /* JDLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD760C222001A200E6601D /* JDLoginController.m */; };
+		78FF9AB622262AA600D1C7A2 /* EmailContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF9AB522262AA600D1C7A2 /* EmailContentCell.m */; };
+		78FF9ABB2227BD0F00D1C7A2 /* ic_reply_all_dark_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF9AB82227BD0F00D1C7A2 /* ic_reply_all_dark_grey@2x.png */; };
+		78FF9ABC2227BD0F00D1C7A2 /* ic_reply_all_dark_grey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF9AB92227BD0F00D1C7A2 /* ic_reply_all_dark_grey@3x.png */; };
+		78FF9AC12227BE0800D1C7A2 /* more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF9ABE2227BE0700D1C7A2 /* more@2x.png */; };
+		78FF9AC22227BE0800D1C7A2 /* more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78FF9ABF2227BE0700D1C7A2 /* more@3x.png */; };
+		78FF9AC72228CC1800D1C7A2 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF9AC42228CC1700D1C7A2 /* GTMNSString+HTML.m */; };
+		78FF9ACA2228DBA100D1C7A2 /* JDSendEmailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FF9AC92228DBA100D1C7A2 /* JDSendEmailModel.m */; };
+		78FF9ACC222A589900D1C7A2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FF9ACB222A589900D1C7A2 /* JavaScriptCore.framework */; };
+		E87D378CCBD9AD952BFC7BB5 /* libPods-JDMailTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EAB926C87BB46FA46A0F9B /* libPods-JDMailTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76E5E2C621D0B149007DEC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E5E2A521D0B147007DEC14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E5E2AC21D0B147007DEC14;
+			remoteInfo = JDMail;
+		};
+		76E5E2D121D0B149007DEC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E5E2A521D0B147007DEC14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E5E2AC21D0B147007DEC14;
+			remoteInfo = JDMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0074DC1AE7BFA76FCF3F1DCB /* libPods-JDMailUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDMailUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C1B71A8A3B5C03BD6F4712 /* Pods-JDMail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDMail.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDMail/Pods-JDMail.release.xcconfig"; sourceTree = "<group>"; };
+		54047E93F68A483D52F71B4E /* libPods-JDMail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDMail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761A6955223652FF00643AD2 /* contact_star_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_star_selected@3x.png"; sourceTree = "<group>"; };
+		761A6956223652FF00643AD2 /* contact_star_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_star_normal@3x.png"; sourceTree = "<group>"; };
+		761A6957223652FF00643AD2 /* contact_star_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_star_selected@2x.png"; sourceTree = "<group>"; };
+		761A6958223652FF00643AD2 /* contact_star_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_star_normal@2x.png"; sourceTree = "<group>"; };
+		763B0438223920BE00270F61 /* JDMailSyncManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailSyncManager.h; sourceTree = "<group>"; };
+		763B0439223920BE00270F61 /* JDMailSyncManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailSyncManager.m; sourceTree = "<group>"; };
+		763B043B2240E6F700270F61 /* JDLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLoginManager.h; sourceTree = "<group>"; };
+		763B043C2240E6F700270F61 /* JDLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLoginManager.m; sourceTree = "<group>"; };
+		765FE8C2221BFCAA007F09AD /* JDMailMessageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMailMessageBuilder.m; sourceTree = "<group>"; };
+		765FE8C3221BFCAA007F09AD /* JDMailMessageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMailMessageBuilder.h; sourceTree = "<group>"; };
+		765FE8C6221C0C57007F09AD /* JDMailMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailMessage.h; sourceTree = "<group>"; };
+		765FE8C7221C0C57007F09AD /* JDMailMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailMessage.m; sourceTree = "<group>"; };
+		765FE8CE221E4E60007F09AD /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		765FE8CF221E4E60007F09AD /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		765FE8D1221E4EAD007F09AD /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		765FE8D3221E8FA8007F09AD /* JDMailListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailListModel.h; sourceTree = "<group>"; };
+		765FE8D4221E8FA8007F09AD /* JDMailListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailListModel.m; sourceTree = "<group>"; };
+		765FE8D7221EADDD007F09AD /* JDImageBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDImageBrowserController.h; sourceTree = "<group>"; };
+		765FE8D8221EADDD007F09AD /* JDImageTransitionDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDImageTransitionDismissAnimation.h; sourceTree = "<group>"; };
+		765FE8D9221EADDD007F09AD /* JDImageTransitionPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDImageTransitionPresentAnimation.m; sourceTree = "<group>"; };
+		765FE8DA221EADDD007F09AD /* JDBrowserCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBrowserCollectionViewCell.h; sourceTree = "<group>"; };
+		765FE8DB221EADDD007F09AD /* JDZoomImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDZoomImageScrollView.m; sourceTree = "<group>"; };
+		765FE8DC221EADDD007F09AD /* JDImageSourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDImageSourceModel.h; sourceTree = "<group>"; };
+		765FE8DD221EADDD007F09AD /* JDImageAnimatedTransitionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDImageAnimatedTransitionDataSource.h; sourceTree = "<group>"; };
+		765FE8DE221EADDD007F09AD /* JDImageBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDImageBrowserController.m; sourceTree = "<group>"; };
+		765FE8DF221EADDD007F09AD /* JDImageTransitionPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDImageTransitionPresentAnimation.h; sourceTree = "<group>"; };
+		765FE8E0221EADDD007F09AD /* JDImageTransitionDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDImageTransitionDismissAnimation.m; sourceTree = "<group>"; };
+		765FE8E1221EADDD007F09AD /* JDBrowserCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBrowserCollectionViewCell.m; sourceTree = "<group>"; };
+		765FE8E2221EADDD007F09AD /* JDImageSourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDImageSourceModel.m; sourceTree = "<group>"; };
+		765FE8E3221EADDD007F09AD /* JDZoomImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDZoomImageScrollView.h; sourceTree = "<group>"; };
+		765FE8E5221EADDD007F09AD /* JDSlipMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSlipMenu.h; sourceTree = "<group>"; };
+		765FE8E6221EADDD007F09AD /* JDSlipMenuLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSlipMenuLeftView.h; sourceTree = "<group>"; };
+		765FE8E7221EADDD007F09AD /* JDSlipMenuHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSlipMenuHeaderView.h; sourceTree = "<group>"; };
+		765FE8E8221EADDD007F09AD /* JDSlipMenuLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSlipMenuLeftView.m; sourceTree = "<group>"; };
+		765FE8E9221EADDD007F09AD /* JDSlipMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSlipMenu.m; sourceTree = "<group>"; };
+		765FE8EA221EADDD007F09AD /* JDSlipMenuHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSlipMenuHeaderView.m; sourceTree = "<group>"; };
+		765FE8F4221EB480007F09AD /* JDMailListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailListCell.h; sourceTree = "<group>"; };
+		765FE8F5221EB480007F09AD /* JDMailListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailListCell.m; sourceTree = "<group>"; };
+		765FE8F9221F8742007F09AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		765FE90A222518B1007F09AD /* tab_mail_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_mail_normal@3x.png"; sourceTree = "<group>"; };
+		765FE90B222518B1007F09AD /* tab_file_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_file_normal@3x.png"; sourceTree = "<group>"; };
+		765FE90C222518B1007F09AD /* tab_schedule_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_schedule_normal@3x.png"; sourceTree = "<group>"; };
+		765FE90D222518B1007F09AD /* tab_schedule_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_schedule_selected@3x.png"; sourceTree = "<group>"; };
+		765FE90E222518B1007F09AD /* tab_chat_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_chat_normal@3x.png"; sourceTree = "<group>"; };
+		765FE90F222518B1007F09AD /* tab_mail_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_mail_selected@3x.png"; sourceTree = "<group>"; };
+		765FE910222518B1007F09AD /* tab_contacts_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_contacts_selected@3x.png"; sourceTree = "<group>"; };
+		765FE911222518B1007F09AD /* tab_chat_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_chat_selected@3x.png"; sourceTree = "<group>"; };
+		765FE912222518B1007F09AD /* tab_file_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_file_selected@3x.png"; sourceTree = "<group>"; };
+		765FE913222518B1007F09AD /* tab_contacts_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_contacts_normal@3x.png"; sourceTree = "<group>"; };
+		765FE91E22251B45007F09AD /* tab_chat_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_chat_normal@2x.png"; sourceTree = "<group>"; };
+		765FE91F22251B45007F09AD /* tab_contacts_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_contacts_selected@2x.png"; sourceTree = "<group>"; };
+		765FE92022251B45007F09AD /* tab_mail_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_mail_normal@2x.png"; sourceTree = "<group>"; };
+		765FE92122251B45007F09AD /* tab_mail_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_mail_selected@2x.png"; sourceTree = "<group>"; };
+		765FE92222251B45007F09AD /* tab_file_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_file_normal@2x.png"; sourceTree = "<group>"; };
+		765FE92322251B45007F09AD /* tab_contacts_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_contacts_normal@2x.png"; sourceTree = "<group>"; };
+		765FE92422251B45007F09AD /* tab_file_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_file_selected@2x.png"; sourceTree = "<group>"; };
+		765FE92522251B45007F09AD /* tab_chat_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_chat_selected@2x.png"; sourceTree = "<group>"; };
+		765FE92622251B46007F09AD /* tab_schedule_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_schedule_normal@2x.png"; sourceTree = "<group>"; };
+		765FE92722251B46007F09AD /* tab_schedule_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_schedule_selected@2x.png"; sourceTree = "<group>"; };
+		765FE93322251E34007F09AD /* slip_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slip_setting@2x.png"; sourceTree = "<group>"; };
+		765FE93422251E34007F09AD /* slip_setting@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slip_setting@3x.png"; sourceTree = "<group>"; };
+		765FE937222520E8007F09AD /* slip_addaccount@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slip_addaccount@2x.png"; sourceTree = "<group>"; };
+		765FE938222520E8007F09AD /* slip_addaccount@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slip_addaccount@3x.png"; sourceTree = "<group>"; };
+		765FE93B22254C80007F09AD /* mail_inbox_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_inbox_selected@3x.png"; sourceTree = "<group>"; };
+		765FE93C22254C80007F09AD /* mail_junkemail_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_junkemail_selected@3x.png"; sourceTree = "<group>"; };
+		765FE93D22254C80007F09AD /* mail_drafts_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_drafts_selected@3x.png"; sourceTree = "<group>"; };
+		765FE93E22254C80007F09AD /* mail_deleteditems_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_deleteditems_selected@2x.png"; sourceTree = "<group>"; };
+		765FE93F22254C80007F09AD /* mail_junkemail_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_junkemail_normal@3x.png"; sourceTree = "<group>"; };
+		765FE94022254C80007F09AD /* mail_deleteditems_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_deleteditems_selected@3x.png"; sourceTree = "<group>"; };
+		765FE94122254C80007F09AD /* mail_drafts_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_drafts_selected@2x.png"; sourceTree = "<group>"; };
+		765FE94222254C80007F09AD /* mail_sentitems_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_sentitems_normal@2x.png"; sourceTree = "<group>"; };
+		765FE94322254C81007F09AD /* mail_inbox_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_inbox_selected@2x.png"; sourceTree = "<group>"; };
+		765FE94422254C81007F09AD /* mail_sentitems_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_sentitems_selected@3x.png"; sourceTree = "<group>"; };
+		765FE94522254C81007F09AD /* mail_inbox_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_inbox_normal@3x.png"; sourceTree = "<group>"; };
+		765FE94622254C81007F09AD /* mail_sentitems_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_sentitems_selected@2x.png"; sourceTree = "<group>"; };
+		765FE94722254C81007F09AD /* mail_drafts_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_drafts_normal@2x.png"; sourceTree = "<group>"; };
+		765FE94822254C81007F09AD /* mail_deleteditems_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_deleteditems_normal@2x.png"; sourceTree = "<group>"; };
+		765FE94922254C81007F09AD /* mail_sentitems_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_sentitems_normal@3x.png"; sourceTree = "<group>"; };
+		765FE94A22254C81007F09AD /* mail_inbox_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_inbox_normal@2x.png"; sourceTree = "<group>"; };
+		765FE94B22254C81007F09AD /* mail_deleteditems_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_deleteditems_normal@3x.png"; sourceTree = "<group>"; };
+		765FE94C22254C81007F09AD /* mail_junkemail_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_junkemail_selected@2x.png"; sourceTree = "<group>"; };
+		765FE94D22254C81007F09AD /* mail_drafts_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_drafts_normal@3x.png"; sourceTree = "<group>"; };
+		765FE94E22254C81007F09AD /* mail_junkemail_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_junkemail_normal@2x.png"; sourceTree = "<group>"; };
+		765FE96322254F7C007F09AD /* JDSlipMenuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSlipMenuCell.h; sourceTree = "<group>"; };
+		765FE96422254F7C007F09AD /* JDSlipMenuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSlipMenuCell.m; sourceTree = "<group>"; };
+		765FE96622262B4F007F09AD /* JDLoginTextFeildCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLoginTextFeildCell.h; sourceTree = "<group>"; };
+		765FE96722262B4F007F09AD /* JDLoginTextFeildCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLoginTextFeildCell.m; sourceTree = "<group>"; };
+		765FE96922263A89007F09AD /* dropdown_anim__0008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0008@2x.png"; sourceTree = "<group>"; };
+		765FE96A22263A89007F09AD /* dropdown_anim__0001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0001@2x.png"; sourceTree = "<group>"; };
+		765FE96B22263A89007F09AD /* dropdown_anim__0002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0002@2x.png"; sourceTree = "<group>"; };
+		765FE96C22263A89007F09AD /* dropdown_anim__0006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0006@2x.png"; sourceTree = "<group>"; };
+		765FE96D22263A89007F09AD /* dropdown_anim__00010@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__00010@2x.png"; sourceTree = "<group>"; };
+		765FE96E22263A8A007F09AD /* dropdown_anim__0003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0003@2x.png"; sourceTree = "<group>"; };
+		765FE96F22263A8A007F09AD /* dropdown_anim__0005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0005@2x.png"; sourceTree = "<group>"; };
+		765FE97022263A8A007F09AD /* dropdown_anim__0004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0004@2x.png"; sourceTree = "<group>"; };
+		765FE97122263A8A007F09AD /* dropdown_anim__0007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0007@2x.png"; sourceTree = "<group>"; };
+		765FE97222263A8A007F09AD /* dropdown_anim__0009@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropdown_anim__0009@2x.png"; sourceTree = "<group>"; };
+		765FE97D222661D3007F09AD /* JDLoginButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLoginButtonCell.h; sourceTree = "<group>"; };
+		765FE97E222661D3007F09AD /* JDLoginButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLoginButtonCell.m; sourceTree = "<group>"; };
+		765FE98022277ACC007F09AD /* JDMailPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailPerson.h; sourceTree = "<group>"; };
+		765FE98122277ACC007F09AD /* JDMailPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailPerson.m; sourceTree = "<group>"; };
+		765FE98B222791D5007F09AD /* JDMailAttachment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailAttachment.h; sourceTree = "<group>"; };
+		765FE98C222791D5007F09AD /* JDMailAttachment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailAttachment.m; sourceTree = "<group>"; };
+		765FE994222901DF007F09AD /* JDAppDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppDBManager.h; sourceTree = "<group>"; };
+		765FE995222901DF007F09AD /* JDAppDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppDBManager.m; sourceTree = "<group>"; };
+		765FE9972229348C007F09AD /* mail_edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_edit@2x.png"; sourceTree = "<group>"; };
+		765FE9982229348C007F09AD /* mail_edit@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_edit@3x.png"; sourceTree = "<group>"; };
+		765FE99B22293576007F09AD /* mail_slip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_slip@2x.png"; sourceTree = "<group>"; };
+		765FE99C22293576007F09AD /* mail_slip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mail_slip@3x.png"; sourceTree = "<group>"; };
+		765FE99F222CD13E007F09AD /* JDMailReplyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailReplyView.h; sourceTree = "<group>"; };
+		765FE9A0222CD13E007F09AD /* JDMailReplyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailReplyView.m; sourceTree = "<group>"; };
+		765FE9A5222E213F007F09AD /* JDSenderTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSenderTextView.h; sourceTree = "<group>"; };
+		765FE9A6222E213F007F09AD /* JDSenderTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSenderTextView.m; sourceTree = "<group>"; };
+		765FE9A8222F6F14007F09AD /* JDContactListMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactListMode.h; sourceTree = "<group>"; };
+		765FE9A9222F6F14007F09AD /* JDContactListMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactListMode.m; sourceTree = "<group>"; };
+		765FE9AB222F7338007F09AD /* JDContactName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactName.h; sourceTree = "<group>"; };
+		765FE9AC222F7338007F09AD /* JDContactName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactName.m; sourceTree = "<group>"; };
+		765FE9B1222F7372007F09AD /* JDContactPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactPhone.h; sourceTree = "<group>"; };
+		765FE9B2222F7372007F09AD /* JDContactPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactPhone.m; sourceTree = "<group>"; };
+		765FE9B7222FA260007F09AD /* contact_addcontact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_addcontact@2x.png"; sourceTree = "<group>"; };
+		765FE9B8222FA260007F09AD /* contact_addcontact@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_addcontact@3x.png"; sourceTree = "<group>"; };
+		765FE9BB222FA885007F09AD /* JDNewContactController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDNewContactController.h; sourceTree = "<group>"; };
+		765FE9BC222FA885007F09AD /* JDNewContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDNewContactController.m; sourceTree = "<group>"; };
+		765FE9BE222FBBD2007F09AD /* JDContactMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactMessage.h; sourceTree = "<group>"; };
+		765FE9BF222FBBD2007F09AD /* JDContactMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactMessage.m; sourceTree = "<group>"; };
+		765FE9C12230FA76007F09AD /* JDContactFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactFieldCell.h; sourceTree = "<group>"; };
+		765FE9C22230FA76007F09AD /* JDContactFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactFieldCell.m; sourceTree = "<group>"; };
+		765FE9C522327B88007F09AD /* JDContactDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactDetailController.h; sourceTree = "<group>"; };
+		765FE9C622327B88007F09AD /* JDContactDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactDetailController.m; sourceTree = "<group>"; };
+		765FE9CE2236012D007F09AD /* JDContactDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDContactDetailModel.h; sourceTree = "<group>"; };
+		765FE9CF2236012D007F09AD /* JDContactDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDContactDetailModel.m; sourceTree = "<group>"; };
+		765FE9D1223638FA007F09AD /* JDContactDetailHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactDetailHeaderView.h; sourceTree = "<group>"; };
+		765FE9D2223638FA007F09AD /* JDContactDetailHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactDetailHeaderView.m; sourceTree = "<group>"; };
+		76644C5121F98A12001BC677 /* JDContactCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactCell.h; sourceTree = "<group>"; };
+		76644C5221F98A12001BC677 /* JDContactCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactCell.m; sourceTree = "<group>"; };
+		76644C5421F9971B001BC677 /* JDContactHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDContactHeaderView.h; sourceTree = "<group>"; };
+		76644C5521F9971B001BC677 /* JDContactHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDContactHeaderView.m; sourceTree = "<group>"; };
+		76644C79220298BE001BC677 /* FMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FMDB.framework; sourceTree = "<group>"; };
+		76644C7D22029978001BC677 /* MBProgressHUD+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extend.m"; sourceTree = "<group>"; };
+		76644C7E22029978001BC677 /* NSDictionary+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extend.h"; sourceTree = "<group>"; };
+		76644C7F22029978001BC677 /* UIViewController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extend.m"; sourceTree = "<group>"; };
+		76644C8022029978001BC677 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
+		76644C8122029978001BC677 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		76644C8222029978001BC677 /* NSDictionary+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extend.m"; sourceTree = "<group>"; };
+		76644C8322029978001BC677 /* UIViewController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extend.h"; sourceTree = "<group>"; };
+		76644C8422029978001BC677 /* MBProgressHUD+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extend.h"; sourceTree = "<group>"; };
+		76644C8522029978001BC677 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
+		76644C8622029978001BC677 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		76644C8822029978001BC677 /* JDNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDNetworkManager.h; sourceTree = "<group>"; };
+		76644C8922029978001BC677 /* JDNetworkAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDNetworkAPI.h; sourceTree = "<group>"; };
+		76644C8A22029978001BC677 /* JDNetworkAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDNetworkAPI.m; sourceTree = "<group>"; };
+		76644C8B22029978001BC677 /* JDNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDNetworkManager.m; sourceTree = "<group>"; };
+		76644C8C22029978001BC677 /* JDNetworkPathHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDNetworkPathHeader.h; sourceTree = "<group>"; };
+		76A9C8AD21D46B55003FFB6F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		76E4ED222213B3C7008FF98A /* JDTableViewIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTableViewIndexView.h; sourceTree = "<group>"; };
+		76E4ED232213B3C7008FF98A /* JDFloatIndexTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFloatIndexTableView.h; sourceTree = "<group>"; };
+		76E4ED242213B3C7008FF98A /* FloatIndexController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatIndexController.h; sourceTree = "<group>"; };
+		76E4ED252213B3C7008FF98A /* JDTableViewIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTableViewIndexView.m; sourceTree = "<group>"; };
+		76E4ED262213B3C7008FF98A /* FloatIndexController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatIndexController.m; sourceTree = "<group>"; };
+		76E4ED272213B3C7008FF98A /* JDFloatIndexTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFloatIndexTableView.m; sourceTree = "<group>"; };
+		76E5E2AD21D0B147007DEC14 /* JDMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E5E2B021D0B147007DEC14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76E5E2B121D0B147007DEC14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76E5E2BC21D0B149007DEC14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76E5E2BE21D0B149007DEC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E5E2BF21D0B149007DEC14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76E5E2C521D0B149007DEC14 /* JDMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E5E2C921D0B149007DEC14 /* JDMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailTests.m; sourceTree = "<group>"; };
+		76E5E2CB21D0B149007DEC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E5E2D021D0B149007DEC14 /* JDMailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDMailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E5E2D421D0B149007DEC14 /* JDMailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailUITests.m; sourceTree = "<group>"; };
+		76E5E2D621D0B149007DEC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E5E2F221D0D550007DEC14 /* JDHiddenNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDHiddenNavigationViewController.m; sourceTree = "<group>"; };
+		76E5E2F321D0D550007DEC14 /* JDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDNavigationController.m; sourceTree = "<group>"; };
+		76E5E2F421D0D550007DEC14 /* JDAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAlertController.m; sourceTree = "<group>"; };
+		76E5E2F521D0D550007DEC14 /* JDHiddenNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDHiddenNavigationViewController.h; sourceTree = "<group>"; };
+		76E5E2F621D0D550007DEC14 /* JDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDNavigationController.h; sourceTree = "<group>"; };
+		76E5E2F821D0D550007DEC14 /* header_icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_icon_back@2x.png"; sourceTree = "<group>"; };
+		76E5E2F921D0D550007DEC14 /* header_icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header_icon_back@3x.png"; sourceTree = "<group>"; };
+		76E5E2FA21D0D550007DEC14 /* JDAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAlertController.h; sourceTree = "<group>"; };
+		76E5E30421D0DA14007DEC14 /* JDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTabBarController.h; sourceTree = "<group>"; };
+		76E5E30521D0DA14007DEC14 /* JDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTabBarController.m; sourceTree = "<group>"; };
+		76E5E30721D0DAE4007DEC14 /* JDTabBarSetting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JDTabBarSetting.plist; sourceTree = "<group>"; };
+		76E5E31621D0E85D007DEC14 /* JDContactListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDContactListController.h; sourceTree = "<group>"; };
+		76E5E31721D0E85D007DEC14 /* JDContactListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDContactListController.m; sourceTree = "<group>"; };
+		76E5E31921D0E85D007DEC14 /* JDScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDScheduleController.m; sourceTree = "<group>"; };
+		76E5E31A21D0E85D007DEC14 /* JDScheduleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDScheduleController.h; sourceTree = "<group>"; };
+		76E5E31C21D0E85D007DEC14 /* JDChatListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDChatListController.h; sourceTree = "<group>"; };
+		76E5E31D21D0E85D007DEC14 /* JDChatListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDChatListController.m; sourceTree = "<group>"; };
+		76E5E32221D0E85D007DEC14 /* JDMailListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMailListController.m; sourceTree = "<group>"; };
+		76E5E32321D0E85D007DEC14 /* JDMailListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMailListController.h; sourceTree = "<group>"; };
+		783853E021F86DCC00094A26 /* JDSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSettingsViewController.h; sourceTree = "<group>"; };
+		783853E121F86DCC00094A26 /* JDSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSettingsViewController.m; sourceTree = "<group>"; };
+		784D5807222FB5A60058A7BB /* JDAttachmentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAttachmentManager.h; sourceTree = "<group>"; };
+		784D5808222FB5A60058A7BB /* JDAttachmentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAttachmentManager.m; sourceTree = "<group>"; };
+		784D58572230B3130058A7BB /* email_Util.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = email_Util.js; sourceTree = "<group>"; };
+		784D585922320BD40058A7BB /* JDMailFileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailFileManager.h; sourceTree = "<group>"; };
+		784D585A22320BD40058A7BB /* JDMailFileManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailFileManager.m; sourceTree = "<group>"; };
+		784D585C2235F2AD0058A7BB /* JDMialDetailContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMialDetailContactViewController.h; sourceTree = "<group>"; };
+		784D585D2235F2AD0058A7BB /* JDMialDetailContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMialDetailContactViewController.m; sourceTree = "<group>"; };
+		788ED7EC224211C100072742 /* JDAppointmentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppointmentModel.h; sourceTree = "<group>"; };
+		788ED7ED224211C100072742 /* JDAppointmentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppointmentModel.m; sourceTree = "<group>"; };
+		788ED7EF224215BA00072742 /* JDAppointmentMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppointmentMessage.h; sourceTree = "<group>"; };
+		788ED7F0224215BA00072742 /* JDAppointmentMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppointmentMessage.m; sourceTree = "<group>"; };
+		788ED7F32242175700072742 /* JDMessageBuilderBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMessageBuilderBase.h; sourceTree = "<group>"; };
+		788ED7F42242175700072742 /* JDMessageBuilderBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMessageBuilderBase.m; sourceTree = "<group>"; };
+		788ED7F622421C3800072742 /* JDAppointmentMessageBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAppointmentMessageBuilder.h; sourceTree = "<group>"; };
+		788ED7F722421C3800072742 /* JDAppointmentMessageBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAppointmentMessageBuilder.m; sourceTree = "<group>"; };
+		7892127B2224E57600CC6F3C /* JDMailDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailDetailViewController.h; sourceTree = "<group>"; };
+		7892127C2224E57600CC6F3C /* JDMailDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailDetailViewController.m; sourceTree = "<group>"; };
+		789212802225100700CC6F3C /* RecipientCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipientCell.h; sourceTree = "<group>"; };
+		789212812225100700CC6F3C /* RecipientCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipientCell.m; sourceTree = "<group>"; };
+		78A36E21221D04CA008A9EE8 /* WellKnownFolderName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WellKnownFolderName.h; sourceTree = "<group>"; };
+		78A7B44E222E6658005EB9F1 /* JDAttachmentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAttachmentTableViewCell.h; sourceTree = "<group>"; };
+		78A7B44F222E6658005EB9F1 /* JDAttachmentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAttachmentTableViewCell.m; sourceTree = "<group>"; };
+		78A7B451222E690F005EB9F1 /* AttachmentCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttachmentCollectionViewCell.h; sourceTree = "<group>"; };
+		78A7B452222E690F005EB9F1 /* AttachmentCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttachmentCollectionViewCell.m; sourceTree = "<group>"; };
+		78BAE5A32200641500D1F1EF /* JDFilesManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFilesManagerController.h; sourceTree = "<group>"; };
+		78BAE5A62200641500D1F1EF /* JDFilesTitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFilesTitleCollectionViewCell.h; sourceTree = "<group>"; };
+		78BAE5A72200641500D1F1EF /* JDFileItemSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFileItemSelectCell.h; sourceTree = "<group>"; };
+		78BAE5A82200641500D1F1EF /* JDFileItemSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFileItemSelectCell.m; sourceTree = "<group>"; };
+		78BAE5A92200641500D1F1EF /* JDFilesTitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFilesTitleCollectionViewCell.m; sourceTree = "<group>"; };
+		78BAE5AA2200641500D1F1EF /* JDFileCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFileCollectionView.m; sourceTree = "<group>"; };
+		78BAE5AB2200641500D1F1EF /* JDFileCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFileCollectionView.h; sourceTree = "<group>"; };
+		78BAE5AC2200641500D1F1EF /* JDFilesManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFilesManagerController.m; sourceTree = "<group>"; };
+		78BAE5AF2200641500D1F1EF /* JDAllFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAllFilesViewController.h; sourceTree = "<group>"; };
+		78BAE5B02200641500D1F1EF /* JDOnlyVediosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDOnlyVediosViewController.h; sourceTree = "<group>"; };
+		78BAE5B12200641500D1F1EF /* JDOnlyImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDOnlyImagesViewController.m; sourceTree = "<group>"; };
+		78BAE5B22200641500D1F1EF /* JDOnlyFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDOnlyFilesViewController.h; sourceTree = "<group>"; };
+		78BAE5B32200641500D1F1EF /* JDAllFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAllFilesViewController.m; sourceTree = "<group>"; };
+		78BAE5B42200641500D1F1EF /* JDOnlyImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDOnlyImagesViewController.h; sourceTree = "<group>"; };
+		78BAE5B52200641500D1F1EF /* JDOnlyVediosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDOnlyVediosViewController.m; sourceTree = "<group>"; };
+		78BAE5B62200641500D1F1EF /* JDOnlyFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDOnlyFilesViewController.m; sourceTree = "<group>"; };
+		78BB924E2239E6F600764DA5 /* JDMailDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailDBManager.h; sourceTree = "<group>"; };
+		78BB924F2239E6F600764DA5 /* JDMailDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailDBManager.m; sourceTree = "<group>"; };
+		78BB92562239F9AF00764DA5 /* JDMailFolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDMailFolder.h; sourceTree = "<group>"; };
+		78BB92572239F9AF00764DA5 /* JDMailFolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDMailFolder.m; sourceTree = "<group>"; };
+		78E6DD3821F9A6F500CDA682 /* JDSettingsAccountCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSettingsAccountCell.h; sourceTree = "<group>"; };
+		78E6DD3921F9A6F500CDA682 /* JDSettingsNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSettingsNormalCell.m; sourceTree = "<group>"; };
+		78E6DD3A21F9A6F500CDA682 /* JDSettingsAccountCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSettingsAccountCell.m; sourceTree = "<group>"; };
+		78E6DD3B21F9A6F500CDA682 /* JDSettingsNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSettingsNormalCell.h; sourceTree = "<group>"; };
+		78E6DD3F21F9AA0100CDA682 /* JDAccountManagerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAccountManagerController.h; sourceTree = "<group>"; };
+		78E6DD4021F9AA0100CDA682 /* JDAccountManagerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDAccountManagerController.m; sourceTree = "<group>"; };
+		78E6DD4221F9AA9400CDA682 /* JDLeftPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLeftPhotoCell.h; sourceTree = "<group>"; };
+		78E6DD4321F9AA9400CDA682 /* JDLeftPhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLeftPhotoCell.m; sourceTree = "<group>"; };
+		78E6DD4521F9AFAB00CDA682 /* JDSettingsBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSettingsBaseCell.h; sourceTree = "<group>"; };
+		78E6DD4621F9AFAB00CDA682 /* JDSettingsBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSettingsBaseCell.m; sourceTree = "<group>"; };
+		78E6DD4821FAA3FF00CDA682 /* EmailSignatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailSignatureViewController.h; sourceTree = "<group>"; };
+		78E6DD4921FAA3FF00CDA682 /* EmailSignatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailSignatureViewController.m; sourceTree = "<group>"; };
+		78FD7378221E3C6300E6601D /* JDEditSendEmailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDEditSendEmailController.h; sourceTree = "<group>"; };
+		78FD7379221E3C6300E6601D /* JDEditSendEmailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDEditSendEmailController.m; sourceTree = "<group>"; };
+		78FD737C221E41E600E6601D /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		78FD737D221E41E600E6601D /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		78FD737F221E427500E6601D /* JDEditSendEmailController+TableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JDEditSendEmailController+TableViewDelegate.h"; sourceTree = "<group>"; };
+		78FD7380221E427500E6601D /* JDEditSendEmailController+TableViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JDEditSendEmailController+TableViewDelegate.m"; sourceTree = "<group>"; };
+		78FD7382221E4D2200E6601D /* JDEmialAddressCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDEmialAddressCell.h; sourceTree = "<group>"; };
+		78FD7383221E4D2200E6601D /* JDEmialAddressCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDEmialAddressCell.m; sourceTree = "<group>"; };
+		78FD7424221E82B800E6601D /* JDEmailEditCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDEmailEditCell.h; sourceTree = "<group>"; };
+		78FD7425221E82B800E6601D /* JDEmailEditCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDEmailEditCell.m; sourceTree = "<group>"; };
+		78FD742B221E872400E6601D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78FD742D221E873C00E6601D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78FD742F221E875E00E6601D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		78FD7431221E878A00E6601D /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		78FD7433221E87ED00E6601D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		78FD7435221E880A00E6601D /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		78FD7437221E884700E6601D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		78FD743B221E8CF200E6601D /* WGUploadPictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGUploadPictureModel.h; sourceTree = "<group>"; };
+		78FD743C221E8CF200E6601D /* WGUploadPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGUploadPictureModel.m; sourceTree = "<group>"; };
+		78FD743E221E8CF200E6601D /* KWFontStyleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWFontStyleBar.h; sourceTree = "<group>"; };
+		78FD743F221E8CF200E6601D /* KWEditorBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWEditorBar.h; sourceTree = "<group>"; };
+		78FD7440221E8CF200E6601D /* KWEditorBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KWEditorBar.xib; sourceTree = "<group>"; };
+		78FD7441221E8CF200E6601D /* KWFontStyleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWFontStyleBar.m; sourceTree = "<group>"; };
+		78FD7442221E8CF200E6601D /* KWEditorBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWEditorBar.m; sourceTree = "<group>"; };
+		78FD7444221E8CF200E6601D /* icon_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_refresh.png; sourceTree = "<group>"; };
+		78FD7445221E8CF200E6601D /* article_editor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = article_editor.js; sourceTree = "<group>"; };
+		78FD7446221E8CF200E6601D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		78FD7447221E8CF200E6601D /* normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = normalize.css; sourceTree = "<group>"; };
+		78FD7448221E8CF200E6601D /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		78FD7449221E8CF200E6601D /* richText_editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = richText_editor.html; sourceTree = "<group>"; };
+		78FD744B221E8CF200E6601D /* HXCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraViewController.m; sourceTree = "<group>"; };
+		78FD744C221E8CF200E6601D /* UIViewController+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HXExtension.m"; sourceTree = "<group>"; };
+		78FD744D221E8CF200E6601D /* HXPhotoConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoConfiguration.m; sourceTree = "<group>"; };
+		78FD744E221E8CF200E6601D /* HXDownloadProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDownloadProgressView.m; sourceTree = "<group>"; };
+		78FD744F221E8CF200E6601D /* HXCustomCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCameraController.h; sourceTree = "<group>"; };
+		78FD7450221E8CF200E6601D /* HXDatePhotoViewTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewTransition.h; sourceTree = "<group>"; };
+		78FD7451221E8CF200E6601D /* HXPhoto3DTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhoto3DTouchViewController.m; sourceTree = "<group>"; };
+		78FD7452221E8CF200E6601D /* HXDatePhotoPreviewBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoPreviewBottomView.m; sourceTree = "<group>"; };
+		78FD7453221E8CF200E6601D /* HXCustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomNavigationController.h; sourceTree = "<group>"; };
+		78FD7454221E8CF200E6601D /* NSDate+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HXExtension.h"; sourceTree = "<group>"; };
+		78FD7455221E8CF200E6601D /* HXPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoView.h; sourceTree = "<group>"; };
+		78FD7456221E8CF200E6601D /* HXFullScreenCameraPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXFullScreenCameraPlayView.h; sourceTree = "<group>"; };
+		78FD7457221E8CF200E6601D /* NSBundle+HXWeiboPhotoPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HXWeiboPhotoPicker.m"; sourceTree = "<group>"; };
+		78FD7458221E8CF200E6601D /* HXCustomCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCollectionReusableView.h; sourceTree = "<group>"; };
+		78FD7459221E8CF200E6601D /* HXCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCollectionView.m; sourceTree = "<group>"; };
+		78FD745A221E8CF200E6601D /* UIImage+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HXExtension.h"; sourceTree = "<group>"; };
+		78FD745B221E8CF200E6601D /* UIImageView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HXExtension.m"; sourceTree = "<group>"; };
+		78FD745C221E8CF200E6601D /* UIFont+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HXExtension.m"; sourceTree = "<group>"; };
+		78FD745D221E8CF200E6601D /* HXCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCircleProgressView.h; sourceTree = "<group>"; };
+		78FD745E221E8CF200E6601D /* HXDatePhotoInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoInteractiveTransition.m; sourceTree = "<group>"; };
+		78FD745F221E8CF200E6601D /* HXPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoModel.m; sourceTree = "<group>"; };
+		78FD7460221E8CF200E6601D /* HXAlbumListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumListViewController.m; sourceTree = "<group>"; };
+		78FD7461221E8CF200E6601D /* UIButton+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HXExtension.h"; sourceTree = "<group>"; };
+		78FD7462221E8CF200E6601D /* HXCustomPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomPreviewView.h; sourceTree = "<group>"; };
+		78FD7463221E8CF200E6601D /* HXCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomButton.m; sourceTree = "<group>"; };
+		78FD7464221E8CF200E6601D /* UIView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXExtension.m"; sourceTree = "<group>"; };
+		78FD7465221E8CF200E6601D /* HXPhotoCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoCustomNavigationBar.m; sourceTree = "<group>"; };
+		78FD7466221E8CF200E6601D /* HXAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumModel.h; sourceTree = "<group>"; };
+		78FD7467221E8CF200E6601D /* HXPhotoTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoTools.m; sourceTree = "<group>"; };
+		78FD7468221E8CF200E6601D /* HXPhotoSubViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoSubViewCell.h; sourceTree = "<group>"; };
+		78FD7469221E8CF200E6601D /* HXDatePhotoPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoPreviewViewController.m; sourceTree = "<group>"; };
+		78FD746A221E8CF200E6601D /* HXDatePhotoViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoViewFlowLayout.m; sourceTree = "<group>"; };
+		78FD746B221E8CF200E6601D /* HXDatePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoViewController.m; sourceTree = "<group>"; };
+		78FD746C221E8CF200E6601D /* HXDatePhotoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoEditViewController.h; sourceTree = "<group>"; };
+		78FD746D221E8CF200E6601D /* HXDatePhotoToolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoToolManager.h; sourceTree = "<group>"; };
+		78FD746E221E8CF200E6601D /* HXPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoManager.m; sourceTree = "<group>"; };
+		78FD746F221E8CF200E6601D /* HXDatePhotoViewPresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoViewPresentTransition.m; sourceTree = "<group>"; };
+		78FD7470221E8CF200E6601D /* HXDateVideoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDateVideoEditViewController.h; sourceTree = "<group>"; };
+		78FD7471221E8CF200E6601D /* HXPhotoDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoDefine.h; sourceTree = "<group>"; };
+		78FD7472221E8CF200E6601D /* HXCustomCameraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCameraController.m; sourceTree = "<group>"; };
+		78FD7473221E8CF200E6601D /* HXDownloadProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDownloadProgressView.h; sourceTree = "<group>"; };
+		78FD7474221E8CF200E6601D /* HXPhotoConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoConfiguration.h; sourceTree = "<group>"; };
+		78FD7475221E8CF200E6601D /* UIViewController+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HXExtension.h"; sourceTree = "<group>"; };
+		78FD7476221E8CF200E6601D /* HXCustomCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomCameraViewController.h; sourceTree = "<group>"; };
+		78FD7477221E8CF200E6601D /* HXCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCollectionView.h; sourceTree = "<group>"; };
+		78FD7478221E8CF200E6601D /* UIImage+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HXExtension.m"; sourceTree = "<group>"; };
+		78FD7479221E8CF200E6601D /* HXCustomCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomCollectionReusableView.m; sourceTree = "<group>"; };
+		78FD747A221E8CF200E6601D /* HXWeiboPhotoPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HXWeiboPhotoPicker.bundle; sourceTree = "<group>"; };
+		78FD747B221E8CF200E6601D /* NSBundle+HXWeiboPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HXWeiboPhotoPicker.h"; sourceTree = "<group>"; };
+		78FD747C221E8CF200E6601D /* HXPhotoPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoPicker.h; sourceTree = "<group>"; };
+		78FD747D221E8CF200E6601D /* HXPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoView.m; sourceTree = "<group>"; };
+		78FD747E221E8CF200E6601D /* HXFullScreenCameraPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXFullScreenCameraPlayView.m; sourceTree = "<group>"; };
+		78FD747F221E8CF200E6601D /* NSDate+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HXExtension.m"; sourceTree = "<group>"; };
+		78FD7480221E8CF200E6601D /* HXCustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomNavigationController.m; sourceTree = "<group>"; };
+		78FD7481221E8CF200E6601D /* HXDatePhotoViewTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoViewTransition.m; sourceTree = "<group>"; };
+		78FD7482221E8CF200E6601D /* HXDatePhotoPreviewBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoPreviewBottomView.h; sourceTree = "<group>"; };
+		78FD7483221E8CF200E6601D /* HXPhoto3DTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhoto3DTouchViewController.h; sourceTree = "<group>"; };
+		78FD7484221E8CF200E6601D /* HXDatePhotoPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoPreviewViewController.h; sourceTree = "<group>"; };
+		78FD7485221E8CF200E6601D /* HXPhotoSubViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPhotoSubViewCell.m; sourceTree = "<group>"; };
+		78FD7486221E8CF200E6601D /* HXPhotoTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoTools.h; sourceTree = "<group>"; };
+		78FD7487221E8CF200E6601D /* HXAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXAlbumModel.m; sourceTree = "<group>"; };
+		78FD7488221E8CF200E6601D /* UIView+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HXExtension.h"; sourceTree = "<group>"; };
+		78FD7489221E8CF200E6601D /* HXPhotoCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoCustomNavigationBar.h; sourceTree = "<group>"; };
+		78FD748A221E8CF200E6601D /* HXCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXCustomButton.h; sourceTree = "<group>"; };
+		78FD748B221E8CF200E6601D /* UIButton+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HXExtension.m"; sourceTree = "<group>"; };
+		78FD748C221E8CF200E6601D /* HXCustomPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCustomPreviewView.m; sourceTree = "<group>"; };
+		78FD748D221E8CF200E6601D /* HXAlbumListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXAlbumListViewController.h; sourceTree = "<group>"; };
+		78FD748E221E8CF200E6601D /* HXCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXCircleProgressView.m; sourceTree = "<group>"; };
+		78FD748F221E8CF200E6601D /* UIFont+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HXExtension.h"; sourceTree = "<group>"; };
+		78FD7490221E8CF200E6601D /* HXPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoModel.h; sourceTree = "<group>"; };
+		78FD7491221E8CF200E6601D /* HXDatePhotoInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoInteractiveTransition.h; sourceTree = "<group>"; };
+		78FD7492221E8CF200E6601D /* UIImageView+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HXExtension.h"; sourceTree = "<group>"; };
+		78FD7493221E8CF200E6601D /* HXDateVideoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDateVideoEditViewController.m; sourceTree = "<group>"; };
+		78FD7494221E8CF200E6601D /* HXPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPhotoManager.h; sourceTree = "<group>"; };
+		78FD7495221E8CF200E6601D /* HXDatePhotoViewPresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewPresentTransition.h; sourceTree = "<group>"; };
+		78FD7496221E8CF200E6601D /* HXDatePhotoToolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoToolManager.m; sourceTree = "<group>"; };
+		78FD7497221E8CF200E6601D /* HXDatePhotoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXDatePhotoEditViewController.m; sourceTree = "<group>"; };
+		78FD7498221E8CF200E6601D /* HXDatePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewController.h; sourceTree = "<group>"; };
+		78FD7499221E8CF200E6601D /* HXDatePhotoViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXDatePhotoViewFlowLayout.h; sourceTree = "<group>"; };
+		78FD749B221E8CF200E6601D /* UIWebView+KWWebViewJSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+KWWebViewJSTool.h"; sourceTree = "<group>"; };
+		78FD749C221E8CF200E6601D /* UIControl+KWButtonExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+KWButtonExtension.h"; sourceTree = "<group>"; };
+		78FD749D221E8CF200E6601D /* UIWebView+KWHideAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+KWHideAccessoryView.m"; sourceTree = "<group>"; };
+		78FD749E221E8CF200E6601D /* UIWebView+KWWebViewJSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+KWWebViewJSTool.m"; sourceTree = "<group>"; };
+		78FD749F221E8CF200E6601D /* UIControl+KWButtonExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+KWButtonExtension.m"; sourceTree = "<group>"; };
+		78FD74A0221E8CF200E6601D /* WGCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCommon.h; sourceTree = "<group>"; };
+		78FD74A1221E8CF200E6601D /* UIWebView+KWHideAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+KWHideAccessoryView.h"; sourceTree = "<group>"; };
+		78FD7607222001A200E6601D /* JDAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAccount.m; sourceTree = "<group>"; };
+		78FD7608222001A200E6601D /* JDAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAccountManager.m; sourceTree = "<group>"; };
+		78FD7609222001A200E6601D /* JDLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoginController.h; sourceTree = "<group>"; };
+		78FD760A222001A200E6601D /* JDAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAccountManager.h; sourceTree = "<group>"; };
+		78FD760B222001A200E6601D /* JDAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAccount.h; sourceTree = "<group>"; };
+		78FD760C222001A200E6601D /* JDLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoginController.m; sourceTree = "<group>"; };
+		78FF9AB422262AA600D1C7A2 /* EmailContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailContentCell.h; sourceTree = "<group>"; };
+		78FF9AB522262AA600D1C7A2 /* EmailContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailContentCell.m; sourceTree = "<group>"; };
+		78FF9AB82227BD0F00D1C7A2 /* ic_reply_all_dark_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_reply_all_dark_grey@2x.png"; sourceTree = "<group>"; };
+		78FF9AB92227BD0F00D1C7A2 /* ic_reply_all_dark_grey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_reply_all_dark_grey@3x.png"; sourceTree = "<group>"; };
+		78FF9ABE2227BE0700D1C7A2 /* more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@2x.png"; sourceTree = "<group>"; };
+		78FF9ABF2227BE0700D1C7A2 /* more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more@3x.png"; sourceTree = "<group>"; };
+		78FF9AC42228CC1700D1C7A2 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		78FF9AC52228CC1700D1C7A2 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		78FF9AC62228CC1700D1C7A2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		78FF9AC82228DBA100D1C7A2 /* JDSendEmailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDSendEmailModel.h; sourceTree = "<group>"; };
+		78FF9AC92228DBA100D1C7A2 /* JDSendEmailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDSendEmailModel.m; sourceTree = "<group>"; };
+		78FF9ACB222A589900D1C7A2 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		9984D3A24E1DFC464E78E520 /* Pods-JDMail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDMail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDMail/Pods-JDMail.debug.xcconfig"; sourceTree = "<group>"; };
+		B2D030257A8AEA15F85AB7D0 /* Pods-JDMailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDMailUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDMailUITests/Pods-JDMailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2EAB926C87BB46FA46A0F9B /* libPods-JDMailTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDMailTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16E2AA62CACC7AF8D74F9C9 /* Pods-JDMailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDMailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDMailTests/Pods-JDMailTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6284A79D82ECEEC5C74BE12 /* Pods-JDMailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDMailUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDMailUITests/Pods-JDMailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFFBFE1168FD16081148374A /* Pods-JDMailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDMailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDMailTests/Pods-JDMailTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76E5E2AA21D0B147007DEC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FF9ACC222A589900D1C7A2 /* JavaScriptCore.framework in Frameworks */,
+				78FD7438221E884700E6601D /* MobileCoreServices.framework in Frameworks */,
+				78FD7436221E880A00E6601D /* PhotosUI.framework in Frameworks */,
+				78FD7434221E87ED00E6601D /* MediaPlayer.framework in Frameworks */,
+				78FD7432221E878A00E6601D /* Photos.framework in Frameworks */,
+				78FD7430221E875E00E6601D /* AVFoundation.framework in Frameworks */,
+				78FD742E221E873C00E6601D /* Foundation.framework in Frameworks */,
+				78FD742C221E872400E6601D /* UIKit.framework in Frameworks */,
+				765FE8D2221E4EAD007F09AD /* libxml2.tbd in Frameworks */,
+				76A9C8AE21D46B55003FFB6F /* libc++.tbd in Frameworks */,
+				76644C7A220298BE001BC677 /* FMDB.framework in Frameworks */,
+				5F0091267154CE14217898C0 /* libPods-JDMail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E5E2C221D0B149007DEC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87D378CCBD9AD952BFC7BB5 /* libPods-JDMailTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E5E2CD21D0B149007DEC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0142F783CA357C9470AA3890 /* libPods-JDMailUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2850E1C8AC1248539AC20196 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9984D3A24E1DFC464E78E520 /* Pods-JDMail.debug.xcconfig */,
+				42C1B71A8A3B5C03BD6F4712 /* Pods-JDMail.release.xcconfig */,
+				FFFBFE1168FD16081148374A /* Pods-JDMailTests.debug.xcconfig */,
+				E16E2AA62CACC7AF8D74F9C9 /* Pods-JDMailTests.release.xcconfig */,
+				F6284A79D82ECEEC5C74BE12 /* Pods-JDMailUITests.debug.xcconfig */,
+				B2D030257A8AEA15F85AB7D0 /* Pods-JDMailUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		765FE8CD221E4E60007F09AD /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				765FE8CE221E4E60007F09AD /* GDataXMLNode.h */,
+				765FE8CF221E4E60007F09AD /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+		765FE8D6221EADDD007F09AD /* JDImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				765FE8D7221EADDD007F09AD /* JDImageBrowserController.h */,
+				765FE8D8221EADDD007F09AD /* JDImageTransitionDismissAnimation.h */,
+				765FE8D9221EADDD007F09AD /* JDImageTransitionPresentAnimation.m */,
+				765FE8DA221EADDD007F09AD /* JDBrowserCollectionViewCell.h */,
+				765FE8DB221EADDD007F09AD /* JDZoomImageScrollView.m */,
+				765FE8DC221EADDD007F09AD /* JDImageSourceModel.h */,
+				765FE8DD221EADDD007F09AD /* JDImageAnimatedTransitionDataSource.h */,
+				765FE8DE221EADDD007F09AD /* JDImageBrowserController.m */,
+				765FE8DF221EADDD007F09AD /* JDImageTransitionPresentAnimation.h */,
+				765FE8E0221EADDD007F09AD /* JDImageTransitionDismissAnimation.m */,
+				765FE8E1221EADDD007F09AD /* JDBrowserCollectionViewCell.m */,
+				765FE8E2221EADDD007F09AD /* JDImageSourceModel.m */,
+				765FE8E3221EADDD007F09AD /* JDZoomImageScrollView.h */,
+			);
+			path = JDImageBrowser;
+			sourceTree = "<group>";
+		};
+		765FE8E4221EADDD007F09AD /* JDSlipMenu */ = {
+			isa = PBXGroup;
+			children = (
+				765FE93222251E34007F09AD /* Resource */,
+				765FE8E5221EADDD007F09AD /* JDSlipMenu.h */,
+				765FE8E9221EADDD007F09AD /* JDSlipMenu.m */,
+				765FE8E6221EADDD007F09AD /* JDSlipMenuLeftView.h */,
+				765FE8E8221EADDD007F09AD /* JDSlipMenuLeftView.m */,
+				765FE8E7221EADDD007F09AD /* JDSlipMenuHeaderView.h */,
+				765FE8EA221EADDD007F09AD /* JDSlipMenuHeaderView.m */,
+				765FE96322254F7C007F09AD /* JDSlipMenuCell.h */,
+				765FE96422254F7C007F09AD /* JDSlipMenuCell.m */,
+			);
+			path = JDSlipMenu;
+			sourceTree = "<group>";
+		};
+		765FE909222518B1007F09AD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				765FE91E22251B45007F09AD /* tab_chat_normal@2x.png */,
+				765FE92522251B45007F09AD /* tab_chat_selected@2x.png */,
+				765FE92322251B45007F09AD /* tab_contacts_normal@2x.png */,
+				765FE91F22251B45007F09AD /* tab_contacts_selected@2x.png */,
+				765FE92222251B45007F09AD /* tab_file_normal@2x.png */,
+				765FE92422251B45007F09AD /* tab_file_selected@2x.png */,
+				765FE92022251B45007F09AD /* tab_mail_normal@2x.png */,
+				765FE92122251B45007F09AD /* tab_mail_selected@2x.png */,
+				765FE92622251B46007F09AD /* tab_schedule_normal@2x.png */,
+				765FE92722251B46007F09AD /* tab_schedule_selected@2x.png */,
+				765FE90A222518B1007F09AD /* tab_mail_normal@3x.png */,
+				765FE90F222518B1007F09AD /* tab_mail_selected@3x.png */,
+				765FE90B222518B1007F09AD /* tab_file_normal@3x.png */,
+				765FE912222518B1007F09AD /* tab_file_selected@3x.png */,
+				765FE90C222518B1007F09AD /* tab_schedule_normal@3x.png */,
+				765FE90D222518B1007F09AD /* tab_schedule_selected@3x.png */,
+				765FE913222518B1007F09AD /* tab_contacts_normal@3x.png */,
+				765FE910222518B1007F09AD /* tab_contacts_selected@3x.png */,
+				765FE90E222518B1007F09AD /* tab_chat_normal@3x.png */,
+				765FE911222518B1007F09AD /* tab_chat_selected@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		765FE93222251E34007F09AD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				765FE937222520E8007F09AD /* slip_addaccount@2x.png */,
+				765FE938222520E8007F09AD /* slip_addaccount@3x.png */,
+				765FE93322251E34007F09AD /* slip_setting@2x.png */,
+				765FE93422251E34007F09AD /* slip_setting@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		765FE98E2228D306007F09AD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				765FE994222901DF007F09AD /* JDAppDBManager.h */,
+				765FE995222901DF007F09AD /* JDAppDBManager.m */,
+				78BB924E2239E6F600764DA5 /* JDMailDBManager.h */,
+				78BB924F2239E6F600764DA5 /* JDMailDBManager.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		765FE9B4222FA1EF007F09AD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				761A6958223652FF00643AD2 /* contact_star_normal@2x.png */,
+				761A6956223652FF00643AD2 /* contact_star_normal@3x.png */,
+				761A6957223652FF00643AD2 /* contact_star_selected@2x.png */,
+				761A6955223652FF00643AD2 /* contact_star_selected@3x.png */,
+				765FE9B7222FA260007F09AD /* contact_addcontact@2x.png */,
+				765FE9B8222FA260007F09AD /* contact_addcontact@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		765FE9C422327B6D007F09AD /* JDContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				765FE9C522327B88007F09AD /* JDContactDetailController.h */,
+				765FE9C622327B88007F09AD /* JDContactDetailController.m */,
+				765FE9CE2236012D007F09AD /* JDContactDetailModel.h */,
+				765FE9CF2236012D007F09AD /* JDContactDetailModel.m */,
+				765FE9D1223638FA007F09AD /* JDContactDetailHeaderView.h */,
+				765FE9D2223638FA007F09AD /* JDContactDetailHeaderView.m */,
+			);
+			path = JDContactDetail;
+			sourceTree = "<group>";
+		};
+		76644C78220298BE001BC677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				765FE8CD221E4E60007F09AD /* GDataXMLNode */,
+				76644C79220298BE001BC677 /* FMDB.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		76644C7B22029978001BC677 /* JDFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				765FE98E2228D306007F09AD /* Database */,
+				76644C7C22029978001BC677 /* Category */,
+				76644C8722029978001BC677 /* Network */,
+			);
+			path = JDFoundation;
+			sourceTree = "<group>";
+		};
+		76644C7C22029978001BC677 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				76644C8422029978001BC677 /* MBProgressHUD+Extend.h */,
+				76644C7D22029978001BC677 /* MBProgressHUD+Extend.m */,
+				76644C7E22029978001BC677 /* NSDictionary+Extend.h */,
+				76644C8222029978001BC677 /* NSDictionary+Extend.m */,
+				76644C8322029978001BC677 /* UIViewController+Extend.h */,
+				76644C7F22029978001BC677 /* UIViewController+Extend.m */,
+				76644C8022029978001BC677 /* NSString+Extend.h */,
+				76644C8522029978001BC677 /* NSString+Extend.m */,
+				76644C8622029978001BC677 /* UIColor+Extend.h */,
+				76644C8122029978001BC677 /* UIColor+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		76644C8722029978001BC677 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				788ED7F22242173500072742 /* JDAppointment */,
+				765FE8C3221BFCAA007F09AD /* JDMailMessageBuilder.h */,
+				765FE8C2221BFCAA007F09AD /* JDMailMessageBuilder.m */,
+				765FE8C6221C0C57007F09AD /* JDMailMessage.h */,
+				765FE8C7221C0C57007F09AD /* JDMailMessage.m */,
+				765FE9BE222FBBD2007F09AD /* JDContactMessage.h */,
+				765FE9BF222FBBD2007F09AD /* JDContactMessage.m */,
+				76644C8822029978001BC677 /* JDNetworkManager.h */,
+				76644C8B22029978001BC677 /* JDNetworkManager.m */,
+				76644C8922029978001BC677 /* JDNetworkAPI.h */,
+				76644C8A22029978001BC677 /* JDNetworkAPI.m */,
+				76644C8C22029978001BC677 /* JDNetworkPathHeader.h */,
+				78A36E21221D04CA008A9EE8 /* WellKnownFolderName.h */,
+				784D5807222FB5A60058A7BB /* JDAttachmentManager.h */,
+				784D5808222FB5A60058A7BB /* JDAttachmentManager.m */,
+				763B0438223920BE00270F61 /* JDMailSyncManager.h */,
+				763B0439223920BE00270F61 /* JDMailSyncManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		76A9C8AC21D46B55003FFB6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78FF9ACB222A589900D1C7A2 /* JavaScriptCore.framework */,
+				78FD7437221E884700E6601D /* MobileCoreServices.framework */,
+				78FD7435221E880A00E6601D /* PhotosUI.framework */,
+				78FD7433221E87ED00E6601D /* MediaPlayer.framework */,
+				78FD7431221E878A00E6601D /* Photos.framework */,
+				78FD742F221E875E00E6601D /* AVFoundation.framework */,
+				78FD742D221E873C00E6601D /* Foundation.framework */,
+				78FD742B221E872400E6601D /* UIKit.framework */,
+				765FE8D1221E4EAD007F09AD /* libxml2.tbd */,
+				76A9C8AD21D46B55003FFB6F /* libc++.tbd */,
+				54047E93F68A483D52F71B4E /* libPods-JDMail.a */,
+				D2EAB926C87BB46FA46A0F9B /* libPods-JDMailTests.a */,
+				0074DC1AE7BFA76FCF3F1DCB /* libPods-JDMailUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A9C8AF21D46DBD003FFB6F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				765FE99B22293576007F09AD /* mail_slip@2x.png */,
+				765FE99C22293576007F09AD /* mail_slip@3x.png */,
+				765FE9972229348C007F09AD /* mail_edit@2x.png */,
+				765FE9982229348C007F09AD /* mail_edit@3x.png */,
+				765FE96A22263A89007F09AD /* dropdown_anim__0001@2x.png */,
+				765FE96B22263A89007F09AD /* dropdown_anim__0002@2x.png */,
+				765FE96E22263A8A007F09AD /* dropdown_anim__0003@2x.png */,
+				765FE97022263A8A007F09AD /* dropdown_anim__0004@2x.png */,
+				765FE96F22263A8A007F09AD /* dropdown_anim__0005@2x.png */,
+				765FE96C22263A89007F09AD /* dropdown_anim__0006@2x.png */,
+				765FE97122263A8A007F09AD /* dropdown_anim__0007@2x.png */,
+				765FE96922263A89007F09AD /* dropdown_anim__0008@2x.png */,
+				765FE97222263A8A007F09AD /* dropdown_anim__0009@2x.png */,
+				765FE96D22263A89007F09AD /* dropdown_anim__00010@2x.png */,
+				765FE94822254C81007F09AD /* mail_deleteditems_normal@2x.png */,
+				765FE94B22254C81007F09AD /* mail_deleteditems_normal@3x.png */,
+				765FE93E22254C80007F09AD /* mail_deleteditems_selected@2x.png */,
+				765FE94022254C80007F09AD /* mail_deleteditems_selected@3x.png */,
+				765FE94722254C81007F09AD /* mail_drafts_normal@2x.png */,
+				765FE94D22254C81007F09AD /* mail_drafts_normal@3x.png */,
+				765FE94122254C80007F09AD /* mail_drafts_selected@2x.png */,
+				765FE93D22254C80007F09AD /* mail_drafts_selected@3x.png */,
+				765FE94A22254C81007F09AD /* mail_inbox_normal@2x.png */,
+				765FE94522254C81007F09AD /* mail_inbox_normal@3x.png */,
+				765FE94322254C81007F09AD /* mail_inbox_selected@2x.png */,
+				765FE93B22254C80007F09AD /* mail_inbox_selected@3x.png */,
+				765FE94E22254C81007F09AD /* mail_junkemail_normal@2x.png */,
+				765FE93F22254C80007F09AD /* mail_junkemail_normal@3x.png */,
+				765FE94C22254C81007F09AD /* mail_junkemail_selected@2x.png */,
+				765FE93C22254C80007F09AD /* mail_junkemail_selected@3x.png */,
+				765FE94222254C80007F09AD /* mail_sentitems_normal@2x.png */,
+				765FE94922254C81007F09AD /* mail_sentitems_normal@3x.png */,
+				765FE94622254C81007F09AD /* mail_sentitems_selected@2x.png */,
+				765FE94422254C81007F09AD /* mail_sentitems_selected@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		76E4ED212213B3C7008FF98A /* JDFloatIndexTableView */ = {
+			isa = PBXGroup;
+			children = (
+				76E4ED222213B3C7008FF98A /* JDTableViewIndexView.h */,
+				76E4ED252213B3C7008FF98A /* JDTableViewIndexView.m */,
+				76E4ED232213B3C7008FF98A /* JDFloatIndexTableView.h */,
+				76E4ED272213B3C7008FF98A /* JDFloatIndexTableView.m */,
+				76E4ED242213B3C7008FF98A /* FloatIndexController.h */,
+				76E4ED262213B3C7008FF98A /* FloatIndexController.m */,
+			);
+			path = JDFloatIndexTableView;
+			sourceTree = "<group>";
+		};
+		76E5E2A421D0B147007DEC14 = {
+			isa = PBXGroup;
+			children = (
+				76E5E2AF21D0B147007DEC14 /* JDMail */,
+				76E5E2C821D0B149007DEC14 /* JDMailTests */,
+				76E5E2D321D0B149007DEC14 /* JDMailUITests */,
+				76E5E2AE21D0B147007DEC14 /* Products */,
+				76A9C8AC21D46B55003FFB6F /* Frameworks */,
+				2850E1C8AC1248539AC20196 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		76E5E2AE21D0B147007DEC14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76E5E2AD21D0B147007DEC14 /* JDMail.app */,
+				76E5E2C521D0B149007DEC14 /* JDMailTests.xctest */,
+				76E5E2D021D0B149007DEC14 /* JDMailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76E5E2AF21D0B147007DEC14 /* JDMail */ = {
+			isa = PBXGroup;
+			children = (
+				78FD7606222001A200E6601D /* JDLogin */,
+				78FD737B221E3CBE00E6601D /* JDEmailEdit */,
+				76644C7B22029978001BC677 /* JDFoundation */,
+				76644C78220298BE001BC677 /* Frameworks */,
+				78BAE5A22200641500D1F1EF /* JDFiles */,
+				783853DF21F86D8800094A26 /* JDSettings */,
+				76E5E2F121D0D550007DEC14 /* JDUIKit */,
+				76E5E2B021D0B147007DEC14 /* AppDelegate.h */,
+				76E5E2B121D0B147007DEC14 /* AppDelegate.m */,
+				76E5E31B21D0E85D007DEC14 /* JDChat */,
+				76E5E31521D0E85D007DEC14 /* JDContact */,
+				76E5E32121D0E85D007DEC14 /* JDMail */,
+				76E5E31821D0E85D007DEC14 /* JDSchedule */,
+				76E5E30321D0DA14007DEC14 /* NavigationCenter */,
+				76E5E2BB21D0B149007DEC14 /* LaunchScreen.storyboard */,
+				76E5E2BE21D0B149007DEC14 /* Info.plist */,
+				765FE8F9221F8742007F09AD /* Assets.xcassets */,
+				76E5E2BF21D0B149007DEC14 /* main.m */,
+			);
+			path = JDMail;
+			sourceTree = "<group>";
+		};
+		76E5E2C821D0B149007DEC14 /* JDMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				76E5E2C921D0B149007DEC14 /* JDMailTests.m */,
+				76E5E2CB21D0B149007DEC14 /* Info.plist */,
+			);
+			path = JDMailTests;
+			sourceTree = "<group>";
+		};
+		76E5E2D321D0B149007DEC14 /* JDMailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76E5E2D421D0B149007DEC14 /* JDMailUITests.m */,
+				76E5E2D621D0B149007DEC14 /* Info.plist */,
+			);
+			path = JDMailUITests;
+			sourceTree = "<group>";
+		};
+		76E5E2F121D0D550007DEC14 /* JDUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				765FE8D6221EADDD007F09AD /* JDImageBrowser */,
+				765FE8E4221EADDD007F09AD /* JDSlipMenu */,
+				76E4ED212213B3C7008FF98A /* JDFloatIndexTableView */,
+				76E5E2F521D0D550007DEC14 /* JDHiddenNavigationViewController.h */,
+				76E5E2F221D0D550007DEC14 /* JDHiddenNavigationViewController.m */,
+				76E5E2F621D0D550007DEC14 /* JDNavigationController.h */,
+				76E5E2F321D0D550007DEC14 /* JDNavigationController.m */,
+				76E5E2FA21D0D550007DEC14 /* JDAlertController.h */,
+				76E5E2F421D0D550007DEC14 /* JDAlertController.m */,
+				76E5E2F721D0D550007DEC14 /* Resource */,
+			);
+			path = JDUIKit;
+			sourceTree = "<group>";
+		};
+		76E5E2F721D0D550007DEC14 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				76E5E2F821D0D550007DEC14 /* header_icon_back@2x.png */,
+				76E5E2F921D0D550007DEC14 /* header_icon_back@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		76E5E30321D0DA14007DEC14 /* NavigationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				765FE909222518B1007F09AD /* Resource */,
+				76E5E30421D0DA14007DEC14 /* JDTabBarController.h */,
+				76E5E30521D0DA14007DEC14 /* JDTabBarController.m */,
+				76E5E30721D0DAE4007DEC14 /* JDTabBarSetting.plist */,
+			);
+			path = NavigationCenter;
+			sourceTree = "<group>";
+		};
+		76E5E31521D0E85D007DEC14 /* JDContact */ = {
+			isa = PBXGroup;
+			children = (
+				765FE9C422327B6D007F09AD /* JDContactDetail */,
+				765FE9B4222FA1EF007F09AD /* Resource */,
+				76E5E31621D0E85D007DEC14 /* JDContactListController.h */,
+				76E5E31721D0E85D007DEC14 /* JDContactListController.m */,
+				765FE9BB222FA885007F09AD /* JDNewContactController.h */,
+				765FE9BC222FA885007F09AD /* JDNewContactController.m */,
+				765FE9C12230FA76007F09AD /* JDContactFieldCell.h */,
+				765FE9C22230FA76007F09AD /* JDContactFieldCell.m */,
+				76644C5121F98A12001BC677 /* JDContactCell.h */,
+				76644C5221F98A12001BC677 /* JDContactCell.m */,
+				765FE9A8222F6F14007F09AD /* JDContactListMode.h */,
+				765FE9A9222F6F14007F09AD /* JDContactListMode.m */,
+				765FE9AB222F7338007F09AD /* JDContactName.h */,
+				765FE9AC222F7338007F09AD /* JDContactName.m */,
+				765FE9B1222F7372007F09AD /* JDContactPhone.h */,
+				765FE9B2222F7372007F09AD /* JDContactPhone.m */,
+				76644C5421F9971B001BC677 /* JDContactHeaderView.h */,
+				76644C5521F9971B001BC677 /* JDContactHeaderView.m */,
+			);
+			path = JDContact;
+			sourceTree = "<group>";
+		};
+		76E5E31821D0E85D007DEC14 /* JDSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				76E5E31A21D0E85D007DEC14 /* JDScheduleController.h */,
+				76E5E31921D0E85D007DEC14 /* JDScheduleController.m */,
+				788ED7EC224211C100072742 /* JDAppointmentModel.h */,
+				788ED7ED224211C100072742 /* JDAppointmentModel.m */,
+			);
+			path = JDSchedule;
+			sourceTree = "<group>";
+		};
+		76E5E31B21D0E85D007DEC14 /* JDChat */ = {
+			isa = PBXGroup;
+			children = (
+				76E5E31C21D0E85D007DEC14 /* JDChatListController.h */,
+				76E5E31D21D0E85D007DEC14 /* JDChatListController.m */,
+			);
+			path = JDChat;
+			sourceTree = "<group>";
+		};
+		76E5E32121D0E85D007DEC14 /* JDMail */ = {
+			isa = PBXGroup;
+			children = (
+				7892127E22250E6700CC6F3C /* JDEmailDetail */,
+				76A9C8AF21D46DBD003FFB6F /* Resource */,
+				76E5E32321D0E85D007DEC14 /* JDMailListController.h */,
+				76E5E32221D0E85D007DEC14 /* JDMailListController.m */,
+				765FE8D3221E8FA8007F09AD /* JDMailListModel.h */,
+				765FE8D4221E8FA8007F09AD /* JDMailListModel.m */,
+				765FE98022277ACC007F09AD /* JDMailPerson.h */,
+				765FE98122277ACC007F09AD /* JDMailPerson.m */,
+				765FE98B222791D5007F09AD /* JDMailAttachment.h */,
+				765FE98C222791D5007F09AD /* JDMailAttachment.m */,
+				765FE8F4221EB480007F09AD /* JDMailListCell.h */,
+				765FE8F5221EB480007F09AD /* JDMailListCell.m */,
+				784D585922320BD40058A7BB /* JDMailFileManager.h */,
+				784D585A22320BD40058A7BB /* JDMailFileManager.m */,
+				78BB92562239F9AF00764DA5 /* JDMailFolder.h */,
+				78BB92572239F9AF00764DA5 /* JDMailFolder.m */,
+			);
+			path = JDMail;
+			sourceTree = "<group>";
+		};
+		783853DF21F86D8800094A26 /* JDSettings */ = {
+			isa = PBXGroup;
+			children = (
+				78E6DD3E21F9A9DA00CDA682 /* ViewControllers */,
+				78E6DD3721F9A6F500CDA682 /* Cells */,
+				783853E021F86DCC00094A26 /* JDSettingsViewController.h */,
+				783853E121F86DCC00094A26 /* JDSettingsViewController.m */,
+			);
+			path = JDSettings;
+			sourceTree = "<group>";
+		};
+		788ED7F22242173500072742 /* JDAppointment */ = {
+			isa = PBXGroup;
+			children = (
+				788ED7EF224215BA00072742 /* JDAppointmentMessage.h */,
+				788ED7F0224215BA00072742 /* JDAppointmentMessage.m */,
+				788ED7F32242175700072742 /* JDMessageBuilderBase.h */,
+				788ED7F42242175700072742 /* JDMessageBuilderBase.m */,
+				788ED7F622421C3800072742 /* JDAppointmentMessageBuilder.h */,
+				788ED7F722421C3800072742 /* JDAppointmentMessageBuilder.m */,
+			);
+			path = JDAppointment;
+			sourceTree = "<group>";
+		};
+		7892127E22250E6700CC6F3C /* JDEmailDetail */ = {
+			isa = PBXGroup;
+			children = (
+				78FF9AB72227BCE000D1C7A2 /* Resource */,
+				7892127F22250E7D00CC6F3C /* Cells */,
+				7892127B2224E57600CC6F3C /* JDMailDetailViewController.h */,
+				7892127C2224E57600CC6F3C /* JDMailDetailViewController.m */,
+				765FE99F222CD13E007F09AD /* JDMailReplyView.h */,
+				765FE9A0222CD13E007F09AD /* JDMailReplyView.m */,
+				784D585C2235F2AD0058A7BB /* JDMialDetailContactViewController.h */,
+				784D585D2235F2AD0058A7BB /* JDMialDetailContactViewController.m */,
+			);
+			path = JDEmailDetail;
+			sourceTree = "<group>";
+		};
+		7892127F22250E7D00CC6F3C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				789212802225100700CC6F3C /* RecipientCell.h */,
+				789212812225100700CC6F3C /* RecipientCell.m */,
+				78FF9AB422262AA600D1C7A2 /* EmailContentCell.h */,
+				78FF9AB522262AA600D1C7A2 /* EmailContentCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		78BAE5A22200641500D1F1EF /* JDFiles */ = {
+			isa = PBXGroup;
+			children = (
+				78BAE5A32200641500D1F1EF /* JDFilesManagerController.h */,
+				78BAE5AC2200641500D1F1EF /* JDFilesManagerController.m */,
+				78BAE5AD2200641500D1F1EF /* JDPageViewController */,
+				78BAE5A42200641500D1F1EF /* JDCollectionView */,
+			);
+			path = JDFiles;
+			sourceTree = "<group>";
+		};
+		78BAE5A42200641500D1F1EF /* JDCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				78BAE5A52200641500D1F1EF /* Cells */,
+				78BAE5AB2200641500D1F1EF /* JDFileCollectionView.h */,
+				78BAE5AA2200641500D1F1EF /* JDFileCollectionView.m */,
+			);
+			path = JDCollectionView;
+			sourceTree = "<group>";
+		};
+		78BAE5A52200641500D1F1EF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				78BAE5A72200641500D1F1EF /* JDFileItemSelectCell.h */,
+				78BAE5A82200641500D1F1EF /* JDFileItemSelectCell.m */,
+				78BAE5A62200641500D1F1EF /* JDFilesTitleCollectionViewCell.h */,
+				78BAE5A92200641500D1F1EF /* JDFilesTitleCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		78BAE5AD2200641500D1F1EF /* JDPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78BAE5AE2200641500D1F1EF /* ViewControlls */,
+			);
+			path = JDPageViewController;
+			sourceTree = "<group>";
+		};
+		78BAE5AE2200641500D1F1EF /* ViewControlls */ = {
+			isa = PBXGroup;
+			children = (
+				78BAE5AF2200641500D1F1EF /* JDAllFilesViewController.h */,
+				78BAE5B32200641500D1F1EF /* JDAllFilesViewController.m */,
+				78BAE5B02200641500D1F1EF /* JDOnlyVediosViewController.h */,
+				78BAE5B12200641500D1F1EF /* JDOnlyImagesViewController.m */,
+				78BAE5B22200641500D1F1EF /* JDOnlyFilesViewController.h */,
+				78BAE5B42200641500D1F1EF /* JDOnlyImagesViewController.h */,
+				78BAE5B52200641500D1F1EF /* JDOnlyVediosViewController.m */,
+				78BAE5B62200641500D1F1EF /* JDOnlyFilesViewController.m */,
+			);
+			path = ViewControlls;
+			sourceTree = "<group>";
+		};
+		78E6DD3721F9A6F500CDA682 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				78E6DD3821F9A6F500CDA682 /* JDSettingsAccountCell.h */,
+				78E6DD3921F9A6F500CDA682 /* JDSettingsNormalCell.m */,
+				78E6DD3B21F9A6F500CDA682 /* JDSettingsNormalCell.h */,
+				78E6DD3A21F9A6F500CDA682 /* JDSettingsAccountCell.m */,
+				78E6DD4221F9AA9400CDA682 /* JDLeftPhotoCell.h */,
+				78E6DD4321F9AA9400CDA682 /* JDLeftPhotoCell.m */,
+				78E6DD4521F9AFAB00CDA682 /* JDSettingsBaseCell.h */,
+				78E6DD4621F9AFAB00CDA682 /* JDSettingsBaseCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		78E6DD3E21F9A9DA00CDA682 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				78E6DD3F21F9AA0100CDA682 /* JDAccountManagerController.h */,
+				78E6DD4021F9AA0100CDA682 /* JDAccountManagerController.m */,
+				78E6DD4821FAA3FF00CDA682 /* EmailSignatureViewController.h */,
+				78E6DD4921FAA3FF00CDA682 /* EmailSignatureViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		78FD737B221E3CBE00E6601D /* JDEmailEdit */ = {
+			isa = PBXGroup;
+			children = (
+				78FD7439221E8CF200E6601D /* richEdite */,
+				78FD737C221E41E600E6601D /* UIView+Frame.h */,
+				78FD737D221E41E600E6601D /* UIView+Frame.m */,
+				78FD7378221E3C6300E6601D /* JDEditSendEmailController.h */,
+				78FD7379221E3C6300E6601D /* JDEditSendEmailController.m */,
+				78FD737F221E427500E6601D /* JDEditSendEmailController+TableViewDelegate.h */,
+				78FD7380221E427500E6601D /* JDEditSendEmailController+TableViewDelegate.m */,
+				78FD7382221E4D2200E6601D /* JDEmialAddressCell.h */,
+				78FD7383221E4D2200E6601D /* JDEmialAddressCell.m */,
+				78FD7424221E82B800E6601D /* JDEmailEditCell.h */,
+				78FD7425221E82B800E6601D /* JDEmailEditCell.m */,
+				78FF9AC82228DBA100D1C7A2 /* JDSendEmailModel.h */,
+				78FF9AC92228DBA100D1C7A2 /* JDSendEmailModel.m */,
+				765FE9A5222E213F007F09AD /* JDSenderTextView.h */,
+				765FE9A6222E213F007F09AD /* JDSenderTextView.m */,
+				78A7B44E222E6658005EB9F1 /* JDAttachmentTableViewCell.h */,
+				78A7B44F222E6658005EB9F1 /* JDAttachmentTableViewCell.m */,
+				78A7B451222E690F005EB9F1 /* AttachmentCollectionViewCell.h */,
+				78A7B452222E690F005EB9F1 /* AttachmentCollectionViewCell.m */,
+			);
+			path = JDEmailEdit;
+			sourceTree = "<group>";
+		};
+		78FD7439221E8CF200E6601D /* richEdite */ = {
+			isa = PBXGroup;
+			children = (
+				78FD7600221FF1BF00E6601D /* NSString_Category */,
+				78FD743A221E8CF200E6601D /* Model */,
+				78FD743D221E8CF200E6601D /* View */,
+				78FD7443221E8CF200E6601D /* Sources */,
+				78FD744A221E8CF200E6601D /* HXWeiboPhotoPicker */,
+				78FD749A221E8CF200E6601D /* Tool */,
+			);
+			path = richEdite;
+			sourceTree = "<group>";
+		};
+		78FD743A221E8CF200E6601D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78FD743B221E8CF200E6601D /* WGUploadPictureModel.h */,
+				78FD743C221E8CF200E6601D /* WGUploadPictureModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78FD743D221E8CF200E6601D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78FD743E221E8CF200E6601D /* KWFontStyleBar.h */,
+				78FD743F221E8CF200E6601D /* KWEditorBar.h */,
+				78FD7440221E8CF200E6601D /* KWEditorBar.xib */,
+				78FD7441221E8CF200E6601D /* KWFontStyleBar.m */,
+				78FD7442221E8CF200E6601D /* KWEditorBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78FD7443221E8CF200E6601D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				78FD7444221E8CF200E6601D /* icon_refresh.png */,
+				78FD7445221E8CF200E6601D /* article_editor.js */,
+				784D58572230B3130058A7BB /* email_Util.js */,
+				78FD7446221E8CF200E6601D /* style.css */,
+				78FD7447221E8CF200E6601D /* normalize.css */,
+				78FD7448221E8CF200E6601D /* jquery.js */,
+				78FD7449221E8CF200E6601D /* richText_editor.html */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		78FD744A221E8CF200E6601D /* HXWeiboPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				78FD744B221E8CF200E6601D /* HXCustomCameraViewController.m */,
+				78FD744C221E8CF200E6601D /* UIViewController+HXExtension.m */,
+				78FD744D221E8CF200E6601D /* HXPhotoConfiguration.m */,
+				78FD744E221E8CF200E6601D /* HXDownloadProgressView.m */,
+				78FD744F221E8CF200E6601D /* HXCustomCameraController.h */,
+				78FD7450221E8CF200E6601D /* HXDatePhotoViewTransition.h */,
+				78FD7451221E8CF200E6601D /* HXPhoto3DTouchViewController.m */,
+				78FD7452221E8CF200E6601D /* HXDatePhotoPreviewBottomView.m */,
+				78FD7453221E8CF200E6601D /* HXCustomNavigationController.h */,
+				78FD7454221E8CF200E6601D /* NSDate+HXExtension.h */,
+				78FD7455221E8CF200E6601D /* HXPhotoView.h */,
+				78FD7456221E8CF200E6601D /* HXFullScreenCameraPlayView.h */,
+				78FD7457221E8CF200E6601D /* NSBundle+HXWeiboPhotoPicker.m */,
+				78FD7458221E8CF200E6601D /* HXCustomCollectionReusableView.h */,
+				78FD7459221E8CF200E6601D /* HXCollectionView.m */,
+				78FD745A221E8CF200E6601D /* UIImage+HXExtension.h */,
+				78FD745B221E8CF200E6601D /* UIImageView+HXExtension.m */,
+				78FD745C221E8CF200E6601D /* UIFont+HXExtension.m */,
+				78FD745D221E8CF200E6601D /* HXCircleProgressView.h */,
+				78FD745E221E8CF200E6601D /* HXDatePhotoInteractiveTransition.m */,
+				78FD745F221E8CF200E6601D /* HXPhotoModel.m */,
+				78FD7460221E8CF200E6601D /* HXAlbumListViewController.m */,
+				78FD7461221E8CF200E6601D /* UIButton+HXExtension.h */,
+				78FD7462221E8CF200E6601D /* HXCustomPreviewView.h */,
+				78FD7463221E8CF200E6601D /* HXCustomButton.m */,
+				78FD7464221E8CF200E6601D /* UIView+HXExtension.m */,
+				78FD7465221E8CF200E6601D /* HXPhotoCustomNavigationBar.m */,
+				78FD7466221E8CF200E6601D /* HXAlbumModel.h */,
+				78FD7467221E8CF200E6601D /* HXPhotoTools.m */,
+				78FD7468221E8CF200E6601D /* HXPhotoSubViewCell.h */,
+				78FD7469221E8CF200E6601D /* HXDatePhotoPreviewViewController.m */,
+				78FD746A221E8CF200E6601D /* HXDatePhotoViewFlowLayout.m */,
+				78FD746B221E8CF200E6601D /* HXDatePhotoViewController.m */,
+				78FD746C221E8CF200E6601D /* HXDatePhotoEditViewController.h */,
+				78FD746D221E8CF200E6601D /* HXDatePhotoToolManager.h */,
+				78FD746E221E8CF200E6601D /* HXPhotoManager.m */,
+				78FD746F221E8CF200E6601D /* HXDatePhotoViewPresentTransition.m */,
+				78FD7470221E8CF200E6601D /* HXDateVideoEditViewController.h */,
+				78FD7471221E8CF200E6601D /* HXPhotoDefine.h */,
+				78FD7472221E8CF200E6601D /* HXCustomCameraController.m */,
+				78FD7473221E8CF200E6601D /* HXDownloadProgressView.h */,
+				78FD7474221E8CF200E6601D /* HXPhotoConfiguration.h */,
+				78FD7475221E8CF200E6601D /* UIViewController+HXExtension.h */,
+				78FD7476221E8CF200E6601D /* HXCustomCameraViewController.h */,
+				78FD7477221E8CF200E6601D /* HXCollectionView.h */,
+				78FD7478221E8CF200E6601D /* UIImage+HXExtension.m */,
+				78FD7479221E8CF200E6601D /* HXCustomCollectionReusableView.m */,
+				78FD747A221E8CF200E6601D /* HXWeiboPhotoPicker.bundle */,
+				78FD747B221E8CF200E6601D /* NSBundle+HXWeiboPhotoPicker.h */,
+				78FD747C221E8CF200E6601D /* HXPhotoPicker.h */,
+				78FD747D221E8CF200E6601D /* HXPhotoView.m */,
+				78FD747E221E8CF200E6601D /* HXFullScreenCameraPlayView.m */,
+				78FD747F221E8CF200E6601D /* NSDate+HXExtension.m */,
+				78FD7480221E8CF200E6601D /* HXCustomNavigationController.m */,
+				78FD7481221E8CF200E6601D /* HXDatePhotoViewTransition.m */,
+				78FD7482221E8CF200E6601D /* HXDatePhotoPreviewBottomView.h */,
+				78FD7483221E8CF200E6601D /* HXPhoto3DTouchViewController.h */,
+				78FD7484221E8CF200E6601D /* HXDatePhotoPreviewViewController.h */,
+				78FD7485221E8CF200E6601D /* HXPhotoSubViewCell.m */,
+				78FD7486221E8CF200E6601D /* HXPhotoTools.h */,
+				78FD7487221E8CF200E6601D /* HXAlbumModel.m */,
+				78FD7488221E8CF200E6601D /* UIView+HXExtension.h */,
+				78FD7489221E8CF200E6601D /* HXPhotoCustomNavigationBar.h */,
+				78FD748A221E8CF200E6601D /* HXCustomButton.h */,
+				78FD748B221E8CF200E6601D /* UIButton+HXExtension.m */,
+				78FD748C221E8CF200E6601D /* HXCustomPreviewView.m */,
+				78FD748D221E8CF200E6601D /* HXAlbumListViewController.h */,
+				78FD748E221E8CF200E6601D /* HXCircleProgressView.m */,
+				78FD748F221E8CF200E6601D /* UIFont+HXExtension.h */,
+				78FD7490221E8CF200E6601D /* HXPhotoModel.h */,
+				78FD7491221E8CF200E6601D /* HXDatePhotoInteractiveTransition.h */,
+				78FD7492221E8CF200E6601D /* UIImageView+HXExtension.h */,
+				78FD7493221E8CF200E6601D /* HXDateVideoEditViewController.m */,
+				78FD7494221E8CF200E6601D /* HXPhotoManager.h */,
+				78FD7495221E8CF200E6601D /* HXDatePhotoViewPresentTransition.h */,
+				78FD7496221E8CF200E6601D /* HXDatePhotoToolManager.m */,
+				78FD7497221E8CF200E6601D /* HXDatePhotoEditViewController.m */,
+				78FD7498221E8CF200E6601D /* HXDatePhotoViewController.h */,
+				78FD7499221E8CF200E6601D /* HXDatePhotoViewFlowLayout.h */,
+			);
+			path = HXWeiboPhotoPicker;
+			sourceTree = "<group>";
+		};
+		78FD749A221E8CF200E6601D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				78FD749B221E8CF200E6601D /* UIWebView+KWWebViewJSTool.h */,
+				78FD749C221E8CF200E6601D /* UIControl+KWButtonExtension.h */,
+				78FD749D221E8CF200E6601D /* UIWebView+KWHideAccessoryView.m */,
+				78FD749E221E8CF200E6601D /* UIWebView+KWWebViewJSTool.m */,
+				78FD749F221E8CF200E6601D /* UIControl+KWButtonExtension.m */,
+				78FD74A0221E8CF200E6601D /* WGCommon.h */,
+				78FD74A1221E8CF200E6601D /* UIWebView+KWHideAccessoryView.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		78FD7600221FF1BF00E6601D /* NSString_Category */ = {
+			isa = PBXGroup;
+			children = (
+				78FF9AC62228CC1700D1C7A2 /* GTMDefines.h */,
+				78FF9AC52228CC1700D1C7A2 /* GTMNSString+HTML.h */,
+				78FF9AC42228CC1700D1C7A2 /* GTMNSString+HTML.m */,
+			);
+			path = NSString_Category;
+			sourceTree = "<group>";
+		};
+		78FD7606222001A200E6601D /* JDLogin */ = {
+			isa = PBXGroup;
+			children = (
+				78FD760B222001A200E6601D /* JDAccount.h */,
+				78FD7607222001A200E6601D /* JDAccount.m */,
+				78FD760A222001A200E6601D /* JDAccountManager.h */,
+				78FD7608222001A200E6601D /* JDAccountManager.m */,
+				78FD7609222001A200E6601D /* JDLoginController.h */,
+				78FD760C222001A200E6601D /* JDLoginController.m */,
+				765FE96622262B4F007F09AD /* JDLoginTextFeildCell.h */,
+				765FE96722262B4F007F09AD /* JDLoginTextFeildCell.m */,
+				765FE97D222661D3007F09AD /* JDLoginButtonCell.h */,
+				765FE97E222661D3007F09AD /* JDLoginButtonCell.m */,
+				763B043B2240E6F700270F61 /* JDLoginManager.h */,
+				763B043C2240E6F700270F61 /* JDLoginManager.m */,
+			);
+			path = JDLogin;
+			sourceTree = "<group>";
+		};
+		78FF9AB72227BCE000D1C7A2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				78FF9ABE2227BE0700D1C7A2 /* more@2x.png */,
+				78FF9ABF2227BE0700D1C7A2 /* more@3x.png */,
+				78FF9AB82227BD0F00D1C7A2 /* ic_reply_all_dark_grey@2x.png */,
+				78FF9AB92227BD0F00D1C7A2 /* ic_reply_all_dark_grey@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76E5E2AC21D0B147007DEC14 /* JDMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E5E2D921D0B149007DEC14 /* Build configuration list for PBXNativeTarget "JDMail" */;
+			buildPhases = (
+				5CF36649305928C0934E5FCE /* [CP] Check Pods Manifest.lock */,
+				76E5E2A921D0B147007DEC14 /* Sources */,
+				76E5E2AA21D0B147007DEC14 /* Frameworks */,
+				76E5E2AB21D0B147007DEC14 /* Resources */,
+				2871F2D74A701F5E7A44CF13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDMail;
+			productName = JDMail;
+			productReference = 76E5E2AD21D0B147007DEC14 /* JDMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76E5E2C421D0B149007DEC14 /* JDMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E5E2DC21D0B149007DEC14 /* Build configuration list for PBXNativeTarget "JDMailTests" */;
+			buildPhases = (
+				8CC0BC7E5A58499759F9257B /* [CP] Check Pods Manifest.lock */,
+				76E5E2C121D0B149007DEC14 /* Sources */,
+				76E5E2C221D0B149007DEC14 /* Frameworks */,
+				76E5E2C321D0B149007DEC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E5E2C721D0B149007DEC14 /* PBXTargetDependency */,
+			);
+			name = JDMailTests;
+			productName = JDMailTests;
+			productReference = 76E5E2C521D0B149007DEC14 /* JDMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76E5E2CF21D0B149007DEC14 /* JDMailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E5E2DF21D0B149007DEC14 /* Build configuration list for PBXNativeTarget "JDMailUITests" */;
+			buildPhases = (
+				A7F51504BF680D9BA8131807 /* [CP] Check Pods Manifest.lock */,
+				76E5E2CC21D0B149007DEC14 /* Sources */,
+				76E5E2CD21D0B149007DEC14 /* Frameworks */,
+				76E5E2CE21D0B149007DEC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E5E2D221D0B149007DEC14 /* PBXTargetDependency */,
+			);
+			name = JDMailUITests;
+			productName = JDMailUITests;
+			productReference = 76E5E2D021D0B149007DEC14 /* JDMailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76E5E2A521D0B147007DEC14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "京东";
+				TargetAttributes = {
+					76E5E2AC21D0B147007DEC14 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					76E5E2C421D0B149007DEC14 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 76E5E2AC21D0B147007DEC14;
+					};
+					76E5E2CF21D0B149007DEC14 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 76E5E2AC21D0B147007DEC14;
+					};
+				};
+			};
+			buildConfigurationList = 76E5E2A821D0B147007DEC14 /* Build configuration list for PBXProject "JDMail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76E5E2A421D0B147007DEC14;
+			productRefGroup = 76E5E2AE21D0B147007DEC14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E5E2AC21D0B147007DEC14 /* JDMail */,
+				76E5E2C421D0B149007DEC14 /* JDMailTests */,
+				76E5E2CF21D0B149007DEC14 /* JDMailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76E5E2AB21D0B147007DEC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FF9ABB2227BD0F00D1C7A2 /* ic_reply_all_dark_grey@2x.png in Resources */,
+				78FD74AB221E8CF300E6601D /* richText_editor.html in Resources */,
+				765FE92C22251B46007F09AD /* tab_file_normal@2x.png in Resources */,
+				765FE9BA222FA260007F09AD /* contact_addcontact@3x.png in Resources */,
+				765FE95822254C81007F09AD /* mail_sentitems_selected@3x.png in Resources */,
+				765FE99A2229348C007F09AD /* mail_edit@3x.png in Resources */,
+				765FE93122251B46007F09AD /* tab_schedule_selected@2x.png in Resources */,
+				765FE95422254C81007F09AD /* mail_deleteditems_selected@3x.png in Resources */,
+				765FE95622254C81007F09AD /* mail_sentitems_normal@2x.png in Resources */,
+				765FE96222254C81007F09AD /* mail_junkemail_normal@2x.png in Resources */,
+				765FE95F22254C81007F09AD /* mail_deleteditems_normal@3x.png in Resources */,
+				765FE93622251E34007F09AD /* slip_setting@3x.png in Resources */,
+				761A695C223652FF00643AD2 /* contact_star_normal@2x.png in Resources */,
+				765FE93022251B46007F09AD /* tab_schedule_normal@2x.png in Resources */,
+				765FE95722254C81007F09AD /* mail_inbox_selected@2x.png in Resources */,
+				78FF9AC22227BE0800D1C7A2 /* more@3x.png in Resources */,
+				765FE97822263A8A007F09AD /* dropdown_anim__0003@2x.png in Resources */,
+				765FE95A22254C81007F09AD /* mail_sentitems_selected@2x.png in Resources */,
+				765FE95522254C81007F09AD /* mail_drafts_selected@2x.png in Resources */,
+				76E5E2BD21D0B149007DEC14 /* LaunchScreen.storyboard in Resources */,
+				765FE97422263A8A007F09AD /* dropdown_anim__0001@2x.png in Resources */,
+				765FE97A22263A8A007F09AD /* dropdown_anim__0004@2x.png in Resources */,
+				761A695A223652FF00643AD2 /* contact_star_normal@3x.png in Resources */,
+				765FE93A222520E8007F09AD /* slip_addaccount@3x.png in Resources */,
+				765FE95122254C81007F09AD /* mail_drafts_selected@3x.png in Resources */,
+				784D58582230B3140058A7BB /* email_Util.js in Resources */,
+				765FE91D222518B1007F09AD /* tab_contacts_normal@3x.png in Resources */,
+				78FD74A9221E8CF300E6601D /* normalize.css in Resources */,
+				761A695B223652FF00643AD2 /* contact_star_selected@2x.png in Resources */,
+				765FE916222518B1007F09AD /* tab_schedule_normal@3x.png in Resources */,
+				765FE95922254C81007F09AD /* mail_inbox_normal@3x.png in Resources */,
+				761A6959223652FF00643AD2 /* contact_star_selected@3x.png in Resources */,
+				78FD74A8221E8CF300E6601D /* style.css in Resources */,
+				78FD74A3221E8CF300E6601D /* KWEditorBar.xib in Resources */,
+				765FE96122254C81007F09AD /* mail_drafts_normal@3x.png in Resources */,
+				765FE97C22263A8A007F09AD /* dropdown_anim__0009@2x.png in Resources */,
+				765FE918222518B1007F09AD /* tab_chat_normal@3x.png in Resources */,
+				765FE99D22293577007F09AD /* mail_slip@2x.png in Resources */,
+				765FE93522251E34007F09AD /* slip_setting@2x.png in Resources */,
+				765FE917222518B1007F09AD /* tab_schedule_selected@3x.png in Resources */,
+				76E5E2FF21D0D550007DEC14 /* header_icon_back@3x.png in Resources */,
+				765FE97522263A8A007F09AD /* dropdown_anim__0002@2x.png in Resources */,
+				765FE8FA221F8742007F09AD /* Assets.xcassets in Resources */,
+				765FE91B222518B1007F09AD /* tab_chat_selected@3x.png in Resources */,
+				765FE919222518B1007F09AD /* tab_mail_selected@3x.png in Resources */,
+				765FE97722263A8A007F09AD /* dropdown_anim__00010@2x.png in Resources */,
+				765FE95E22254C81007F09AD /* mail_inbox_normal@2x.png in Resources */,
+				765FE9992229348C007F09AD /* mail_edit@2x.png in Resources */,
+				76E5E2FE21D0D550007DEC14 /* header_icon_back@2x.png in Resources */,
+				765FE92F22251B46007F09AD /* tab_chat_selected@2x.png in Resources */,
+				765FE92B22251B46007F09AD /* tab_mail_selected@2x.png in Resources */,
+				765FE95022254C81007F09AD /* mail_junkemail_selected@3x.png in Resources */,
+				765FE95C22254C81007F09AD /* mail_deleteditems_normal@2x.png in Resources */,
+				765FE97622263A8A007F09AD /* dropdown_anim__0006@2x.png in Resources */,
+				765FE92A22251B46007F09AD /* tab_mail_normal@2x.png in Resources */,
+				765FE92E22251B46007F09AD /* tab_file_selected@2x.png in Resources */,
+				78FF9ABC2227BD0F00D1C7A2 /* ic_reply_all_dark_grey@3x.png in Resources */,
+				765FE97922263A8A007F09AD /* dropdown_anim__0005@2x.png in Resources */,
+				765FE97322263A8A007F09AD /* dropdown_anim__0008@2x.png in Resources */,
+				78FD74A6221E8CF300E6601D /* icon_refresh.png in Resources */,
+				765FE92D22251B46007F09AD /* tab_contacts_normal@2x.png in Resources */,
+				765FE91C222518B1007F09AD /* tab_file_selected@3x.png in Resources */,
+				765FE92922251B46007F09AD /* tab_contacts_selected@2x.png in Resources */,
+				765FE95322254C81007F09AD /* mail_junkemail_normal@3x.png in Resources */,
+				765FE95B22254C81007F09AD /* mail_drafts_normal@2x.png in Resources */,
+				765FE95D22254C81007F09AD /* mail_sentitems_normal@3x.png in Resources */,
+				765FE97B22263A8A007F09AD /* dropdown_anim__0007@2x.png in Resources */,
+				765FE96022254C81007F09AD /* mail_junkemail_selected@2x.png in Resources */,
+				765FE94F22254C81007F09AD /* mail_inbox_selected@3x.png in Resources */,
+				78FD74A7221E8CF300E6601D /* article_editor.js in Resources */,
+				765FE92822251B46007F09AD /* tab_chat_normal@2x.png in Resources */,
+				765FE95222254C81007F09AD /* mail_deleteditems_selected@2x.png in Resources */,
+				76E5E30821D0DAE4007DEC14 /* JDTabBarSetting.plist in Resources */,
+				765FE91A222518B1007F09AD /* tab_contacts_selected@3x.png in Resources */,
+				765FE9B9222FA260007F09AD /* contact_addcontact@2x.png in Resources */,
+				765FE914222518B1007F09AD /* tab_mail_normal@3x.png in Resources */,
+				765FE939222520E8007F09AD /* slip_addaccount@2x.png in Resources */,
+				78FD74AA221E8CF300E6601D /* jquery.js in Resources */,
+				78FD74C5221E8CF300E6601D /* HXWeiboPhotoPicker.bundle in Resources */,
+				765FE915222518B1007F09AD /* tab_file_normal@3x.png in Resources */,
+				765FE99E22293577007F09AD /* mail_slip@3x.png in Resources */,
+				78FF9AC12227BE0800D1C7A2 /* more@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E5E2C321D0B149007DEC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E5E2CE21D0B149007DEC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2871F2D74A701F5E7A44CF13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JDMail/Pods-JDMail-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDMail/Pods-JDMail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CF36649305928C0934E5FCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JDMail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC0BC7E5A58499759F9257B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JDMailTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7F51504BF680D9BA8131807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JDMailUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E5E2A921D0B147007DEC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765FE8F2221EADDD007F09AD /* JDSlipMenu.m in Sources */,
+				765FE8C8221C0C57007F09AD /* JDMailMessage.m in Sources */,
+				78FD74BB221E8CF300E6601D /* HXPhotoCustomNavigationBar.m in Sources */,
+				78BAE5BE2200641500D1F1EF /* JDOnlyFilesViewController.m in Sources */,
+				78FD74D1221E8CF300E6601D /* HXDatePhotoToolManager.m in Sources */,
+				78FD74CC221E8CF300E6601D /* HXAlbumModel.m in Sources */,
+				76E5E32521D0E85E007DEC14 /* JDScheduleController.m in Sources */,
+				78FD74BD221E8CF300E6601D /* HXDatePhotoPreviewViewController.m in Sources */,
+				78FD74D5221E8CF300E6601D /* UIControl+KWButtonExtension.m in Sources */,
+				78FD74BA221E8CF300E6601D /* UIView+HXExtension.m in Sources */,
+				78FD74A4221E8CF300E6601D /* KWFontStyleBar.m in Sources */,
+				78BAE5B72200641500D1F1EF /* JDFileItemSelectCell.m in Sources */,
+				784D585E2235F2AD0058A7BB /* JDMialDetailContactViewController.m in Sources */,
+				78FD7381221E427500E6601D /* JDEditSendEmailController+TableViewDelegate.m in Sources */,
+				788ED7F52242175700072742 /* JDMessageBuilderBase.m in Sources */,
+				78FF9AC72228CC1800D1C7A2 /* GTMNSString+HTML.m in Sources */,
+				78FD74C3221E8CF300E6601D /* UIImage+HXExtension.m in Sources */,
+				78FD74D3221E8CF300E6601D /* UIWebView+KWHideAccessoryView.m in Sources */,
+				78FD74A5221E8CF300E6601D /* KWEditorBar.m in Sources */,
+				78BAE5B82200641500D1F1EF /* JDFilesTitleCollectionViewCell.m in Sources */,
+				76644C8E22029978001BC677 /* UIViewController+Extend.m in Sources */,
+				78FD737A221E3C6300E6601D /* JDEditSendEmailController.m in Sources */,
+				784D585B22320BD40058A7BB /* JDMailFileManager.m in Sources */,
+				78FD760F222001A300E6601D /* JDLoginController.m in Sources */,
+				78FD737E221E41E600E6601D /* UIView+Frame.m in Sources */,
+				78E6DD4A21FAA3FF00CDA682 /* EmailSignatureViewController.m in Sources */,
+				763B043D2240E6F700270F61 /* JDLoginManager.m in Sources */,
+				76644C9322029978001BC677 /* JDNetworkManager.m in Sources */,
+				76E5E30621D0DA14007DEC14 /* JDTabBarController.m in Sources */,
+				76E5E2C021D0B149007DEC14 /* main.m in Sources */,
+				76644C5321F98A12001BC677 /* JDContactCell.m in Sources */,
+				7892127D2224E57600CC6F3C /* JDMailDetailViewController.m in Sources */,
+				78FD7384221E4D2200E6601D /* JDEmialAddressCell.m in Sources */,
+				78FD74C2221E8CF300E6601D /* HXCustomCameraController.m in Sources */,
+				76E5E2FC21D0D550007DEC14 /* JDNavigationController.m in Sources */,
+				76E5E2FD21D0D550007DEC14 /* JDAlertController.m in Sources */,
+				765FE8EC221EADDD007F09AD /* JDZoomImageScrollView.m in Sources */,
+				765FE8ED221EADDD007F09AD /* JDImageBrowserController.m in Sources */,
+				76E5E32421D0E85E007DEC14 /* JDContactListController.m in Sources */,
+				78FD74CE221E8CF300E6601D /* HXCustomPreviewView.m in Sources */,
+				78FD74DF221ECBE200E6601D /* AppDelegate.m in Sources */,
+				78FD74B1221E8CF300E6601D /* HXDatePhotoPreviewBottomView.m in Sources */,
+				78FD74AE221E8CF300E6601D /* HXPhotoConfiguration.m in Sources */,
+				788ED7EE224211C100072742 /* JDAppointmentModel.m in Sources */,
+				789212822225100700CC6F3C /* RecipientCell.m in Sources */,
+				765FE8F1221EADDD007F09AD /* JDSlipMenuLeftView.m in Sources */,
+				78FD760E222001A300E6601D /* JDAccountManager.m in Sources */,
+				765FE8F3221EADDD007F09AD /* JDSlipMenuHeaderView.m in Sources */,
+				765FE98D222791D5007F09AD /* JDMailAttachment.m in Sources */,
+				765FE8F0221EADDD007F09AD /* JDImageSourceModel.m in Sources */,
+				76644C9222029978001BC677 /* JDNetworkAPI.m in Sources */,
+				783853E221F86DCC00094A26 /* JDSettingsViewController.m in Sources */,
+				76E5E32821D0E85E007DEC14 /* JDMailListController.m in Sources */,
+				78FD74D2221E8CF300E6601D /* HXDatePhotoEditViewController.m in Sources */,
+				78FD74B4221E8CF300E6601D /* UIImageView+HXExtension.m in Sources */,
+				765FE96522254F7C007F09AD /* JDSlipMenuCell.m in Sources */,
+				78FD74B2221E8CF300E6601D /* NSBundle+HXWeiboPhotoPicker.m in Sources */,
+				78FD74C0221E8CF300E6601D /* HXPhotoManager.m in Sources */,
+				78FD74C7221E8CF300E6601D /* HXFullScreenCameraPlayView.m in Sources */,
+				78FD74C6221E8CF300E6601D /* HXPhotoView.m in Sources */,
+				76644C9022029978001BC677 /* NSDictionary+Extend.m in Sources */,
+				78FD74D4221E8CF300E6601D /* UIWebView+KWWebViewJSTool.m in Sources */,
+				78FD74A2221E8CF300E6601D /* WGUploadPictureModel.m in Sources */,
+				78FD74DE221ECBE200E6601D /* JDChatListController.m in Sources */,
+				78FD74DA221ECBE200E6601D /* UIColor+Extend.m in Sources */,
+				78FD74E1221ECBE200E6601D /* FloatIndexController.m in Sources */,
+				78FD74BE221E8CF300E6601D /* HXDatePhotoViewFlowLayout.m in Sources */,
+				78FD74CB221E8CF300E6601D /* HXPhotoSubViewCell.m in Sources */,
+				765FE96822262B4F007F09AD /* JDLoginTextFeildCell.m in Sources */,
+				78FD74BF221E8CF300E6601D /* HXDatePhotoViewController.m in Sources */,
+				765FE9A7222E213F007F09AD /* JDSenderTextView.m in Sources */,
+				78FD74E0221ECBE200E6601D /* JDFloatIndexTableView.m in Sources */,
+				78FD74DC221ECBE200E6601D /* JDOnlyImagesViewController.m in Sources */,
+				78FF9ACA2228DBA100D1C7A2 /* JDSendEmailModel.m in Sources */,
+				78FD74D0221E8CF300E6601D /* HXDateVideoEditViewController.m in Sources */,
+				765FE9D02236012D007F09AD /* JDContactDetailModel.m in Sources */,
+				765FE9B3222F7372007F09AD /* JDContactPhone.m in Sources */,
+				788ED7F822421C3800072742 /* JDAppointmentMessageBuilder.m in Sources */,
+				78FD7426221E82B800E6601D /* JDEmailEditCell.m in Sources */,
+				765FE98222277ACC007F09AD /* JDMailPerson.m in Sources */,
+				765FE8F6221EB480007F09AD /* JDMailListCell.m in Sources */,
+				763B043A223920BE00270F61 /* JDMailSyncManager.m in Sources */,
+				765FE8D5221E8FA8007F09AD /* JDMailListModel.m in Sources */,
+				78E6DD3C21F9A6F500CDA682 /* JDSettingsNormalCell.m in Sources */,
+				78FD74C4221E8CF300E6601D /* HXCustomCollectionReusableView.m in Sources */,
+				765FE97F222661D3007F09AD /* JDLoginButtonCell.m in Sources */,
+				78BAE5BC2200641500D1F1EF /* JDAllFilesViewController.m in Sources */,
+				765FE8C5221BFCAA007F09AD /* JDMailMessageBuilder.m in Sources */,
+				78E6DD4421F9AA9400CDA682 /* JDLeftPhotoCell.m in Sources */,
+				765FE9C32230FA76007F09AD /* JDContactFieldCell.m in Sources */,
+				765FE8EB221EADDD007F09AD /* JDImageTransitionPresentAnimation.m in Sources */,
+				78E6DD4721F9AFAB00CDA682 /* JDSettingsBaseCell.m in Sources */,
+				78FD760D222001A300E6601D /* JDAccount.m in Sources */,
+				78FD74B9221E8CF300E6601D /* HXCustomButton.m in Sources */,
+				78FD74CA221E8CF300E6601D /* HXDatePhotoViewTransition.m in Sources */,
+				78BB92582239F9AF00764DA5 /* JDMailFolder.m in Sources */,
+				78FD74DD221ECBE200E6601D /* JDHiddenNavigationViewController.m in Sources */,
+				78FD74DB221ECBE200E6601D /* JDContactHeaderView.m in Sources */,
+				78FD74C1221E8CF300E6601D /* HXDatePhotoViewPresentTransition.m in Sources */,
+				78FD74B8221E8CF300E6601D /* HXAlbumListViewController.m in Sources */,
+				78FD74CF221E8CF300E6601D /* HXCircleProgressView.m in Sources */,
+				788ED7F1224215BA00072742 /* JDAppointmentMessage.m in Sources */,
+				765FE9A1222CD13E007F09AD /* JDMailReplyView.m in Sources */,
+				78FD74B0221E8CF300E6601D /* HXPhoto3DTouchViewController.m in Sources */,
+				78BB92502239E6F600764DA5 /* JDMailDBManager.m in Sources */,
+				765FE9AA222F6F14007F09AD /* JDContactListMode.m in Sources */,
+				78FD74D8221ECBE200E6601D /* MBProgressHUD+Extend.m in Sources */,
+				78FD74AD221E8CF300E6601D /* UIViewController+HXExtension.m in Sources */,
+				78FD74C8221E8CF300E6601D /* NSDate+HXExtension.m in Sources */,
+				765FE9C0222FBBD2007F09AD /* JDContactMessage.m in Sources */,
+				765FE8D0221E4E60007F09AD /* GDataXMLNode.m in Sources */,
+				765FE9D3223638FA007F09AD /* JDContactDetailHeaderView.m in Sources */,
+				765FE8EF221EADDD007F09AD /* JDBrowserCollectionViewCell.m in Sources */,
+				765FE9BD222FA885007F09AD /* JDNewContactController.m in Sources */,
+				76644C9122029978001BC677 /* NSString+Extend.m in Sources */,
+				78FD74B3221E8CF300E6601D /* HXCollectionView.m in Sources */,
+				765FE996222901DF007F09AD /* JDAppDBManager.m in Sources */,
+				765FE9C722327B88007F09AD /* JDContactDetailController.m in Sources */,
+				765FE9AD222F7338007F09AD /* JDContactName.m in Sources */,
+				78BAE5B92200641500D1F1EF /* JDFileCollectionView.m in Sources */,
+				78A7B450222E6658005EB9F1 /* JDAttachmentTableViewCell.m in Sources */,
+				78FD74B6221E8CF300E6601D /* HXDatePhotoInteractiveTransition.m in Sources */,
+				78FD74D9221ECBE200E6601D /* JDTableViewIndexView.m in Sources */,
+				78A7B453222E690F005EB9F1 /* AttachmentCollectionViewCell.m in Sources */,
+				78FD74AC221E8CF300E6601D /* HXCustomCameraViewController.m in Sources */,
+				78FD74B7221E8CF300E6601D /* HXPhotoModel.m in Sources */,
+				78FD74B5221E8CF300E6601D /* UIFont+HXExtension.m in Sources */,
+				78FD74AF221E8CF300E6601D /* HXDownloadProgressView.m in Sources */,
+				78BAE5BD2200641500D1F1EF /* JDOnlyVediosViewController.m in Sources */,
+				765FE8EE221EADDD007F09AD /* JDImageTransitionDismissAnimation.m in Sources */,
+				784D5809222FB5A60058A7BB /* JDAttachmentManager.m in Sources */,
+				78E6DD3D21F9A6F500CDA682 /* JDSettingsAccountCell.m in Sources */,
+				78FF9AB622262AA600D1C7A2 /* EmailContentCell.m in Sources */,
+				78FD74BC221E8CF300E6601D /* HXPhotoTools.m in Sources */,
+				78E6DD4121F9AA0100CDA682 /* JDAccountManagerController.m in Sources */,
+				78FD74CD221E8CF300E6601D /* UIButton+HXExtension.m in Sources */,
+				78BAE5BA2200641500D1F1EF /* JDFilesManagerController.m in Sources */,
+				78FD74C9221E8CF300E6601D /* HXCustomNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E5E2C121D0B149007DEC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E5E2CA21D0B149007DEC14 /* JDMailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E5E2CC21D0B149007DEC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E5E2D521D0B149007DEC14 /* JDMailUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76E5E2C721D0B149007DEC14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E5E2AC21D0B147007DEC14 /* JDMail */;
+			targetProxy = 76E5E2C621D0B149007DEC14 /* PBXContainerItemProxy */;
+		};
+		76E5E2D221D0B149007DEC14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E5E2AC21D0B147007DEC14 /* JDMail */;
+			targetProxy = 76E5E2D121D0B149007DEC14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76E5E2BB21D0B149007DEC14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76E5E2BC21D0B149007DEC14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76E5E2D721D0B149007DEC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76E5E2D821D0B149007DEC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76E5E2DA21D0B149007DEC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9984D3A24E1DFC464E78E520 /* Pods-JDMail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 355A2TSX74;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JDMail/JDReact/DebugLib",
+					"$(PROJECT_DIR)/JDMail/JDReact/React",
+					"$(PROJECT_DIR)/JDMail",
+					"$(PROJECT_DIR)/JDMail/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = JDMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.mail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.jd.mail_dis;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		76E5E2DB21D0B149007DEC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C1B71A8A3B5C03BD6F4712 /* Pods-JDMail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 355A2TSX74;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JDMail/JDReact/DebugLib",
+					"$(PROJECT_DIR)/JDMail/JDReact/React",
+					"$(PROJECT_DIR)/JDMail",
+					"$(PROJECT_DIR)/JDMail/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = JDMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.mail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.jd.mail_dis;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		76E5E2DD21D0B149007DEC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFBFE1168FD16081148374A /* Pods-JDMailTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 355A2TSX74;
+				INFOPLIST_FILE = JDMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.mail.JDMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDMail.app/JDMail";
+			};
+			name = Debug;
+		};
+		76E5E2DE21D0B149007DEC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16E2AA62CACC7AF8D74F9C9 /* Pods-JDMailTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 355A2TSX74;
+				INFOPLIST_FILE = JDMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.mail.JDMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDMail.app/JDMail";
+			};
+			name = Release;
+		};
+		76E5E2E021D0B149007DEC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6284A79D82ECEEC5C74BE12 /* Pods-JDMailUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 355A2TSX74;
+				INFOPLIST_FILE = JDMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.mail.JDMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JDMail;
+			};
+			name = Debug;
+		};
+		76E5E2E121D0B149007DEC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D030257A8AEA15F85AB7D0 /* Pods-JDMailUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 355A2TSX74;
+				INFOPLIST_FILE = JDMailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jd.mail.JDMailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JDMail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76E5E2A821D0B147007DEC14 /* Build configuration list for PBXProject "JDMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E5E2D721D0B149007DEC14 /* Debug */,
+				76E5E2D821D0B149007DEC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E5E2D921D0B149007DEC14 /* Build configuration list for PBXNativeTarget "JDMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E5E2DA21D0B149007DEC14 /* Debug */,
+				76E5E2DB21D0B149007DEC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E5E2DC21D0B149007DEC14 /* Build configuration list for PBXNativeTarget "JDMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E5E2DD21D0B149007DEC14 /* Debug */,
+				76E5E2DE21D0B149007DEC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E5E2DF21D0B149007DEC14 /* Build configuration list for PBXNativeTarget "JDMailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E5E2E021D0B149007DEC14 /* Debug */,
+				76E5E2E121D0B149007DEC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76E5E2A521D0B147007DEC14 /* Project object */;
+}

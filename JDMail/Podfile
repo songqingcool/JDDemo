@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+
+platform :ios, '9.0'
+project './JDMail.xcodeproj'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JDMail' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for JDMail
+
+  #github上的pod库
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'IQKeyboardManager'
+  pod 'MBProgressHUD'
+  pod 'YYText'
+
+  target 'JDMailTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JDMailUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+end
